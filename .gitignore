@@ -53,3 +53,7 @@ _deps
 
 # Ignore workspace
 *.sublime-workspace
+
+.idea/
+cmake-build-debug/
+worlds/
