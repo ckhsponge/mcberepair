@@ -1,0 +1,7 @@
+set(mcberepair_SEMVER_MAJOR "0")
+set(mcberepair_SEMVER_MINOR "2")
+set(mcberepair_SEMVER_PATCH "0")
+set(mcberepair_SEMVER_PRERELEASE "prerelease")
+set(mcberepair_SEMVER_METADATA "gcc27beb-dirty")
+set(mcberepair_SEMVER_VERSION "0.2.0-prerelease+gcc27beb-dirty")
+set(mcberepair_SEMVER_INTEGER "20000")

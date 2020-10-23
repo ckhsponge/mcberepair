@@ -1,0 +1,7 @@
+set(mcberepair_SEMVER_MAJOR "@mcberepair_SEMVER_MAJOR@")
+set(mcberepair_SEMVER_MINOR "@mcberepair_SEMVER_MINOR@")
+set(mcberepair_SEMVER_PATCH "@mcberepair_SEMVER_PATCH@")
+set(mcberepair_SEMVER_PRERELEASE "@mcberepair_SEMVER_PRERELEASE@")
+set(mcberepair_SEMVER_METADATA "@mcberepair_SEMVER_METADATA@")
+set(mcberepair_SEMVER_VERSION "@mcberepair_SEMVER_VERSION@")
+set(mcberepair_SEMVER_INTEGER "@mcberepair_SEMVER_INTEGER@")

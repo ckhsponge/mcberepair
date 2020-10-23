@@ -1,0 +1,2858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4F45E14D8A9C46EFBF802313 /* check_all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 12F7AE7970A14875A3633F9B /* Build configuration list for PBXAggregateTarget "check_all" */;
+			buildPhases = (
+				FDA8CDC61C104B81AE695B21 /* CMake Rules */,
+			);
+			dependencies = (
+				BD5834AF0A0844F399FB4C7B /* PBXTargetDependency */,
+				1F5180C209DB4D52ADE9C037 /* PBXTargetDependency */,
+			);
+			name = check_all;
+			productName = check_all;
+		};
+		62EC4EF264D14E418C6CD052 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6596BFF26EB2488684827510 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				44659282C3BB4AC7B86AA82D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				73AA48C710E84CA49712D06C /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		66EBDB0965204085AE8D4F1F /* configure-version.h */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE25C43E06B449CBA37B5858 /* Build configuration list for PBXAggregateTarget "configure-version.h" */;
+			buildPhases = (
+				F93FFEDB6F66423799EDE47F /* CMake Rules */,
+			);
+			dependencies = (
+				37D504C1A0894967B619D580 /* PBXTargetDependency */,
+				842DD3D3A606487DACD2700F /* PBXTargetDependency */,
+			);
+			name = "configure-version.h";
+			productName = "configure-version.h";
+		};
+		7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5946F153B904D70B6FD3101 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FAE845781FEF4FC2ABC904A8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7CC95DE3A76C42BE96B624F0 /* configure */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 207677A0BAD44BABAAD2899C /* Build configuration list for PBXAggregateTarget "configure" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4811F002C3F54777B8F39F96 /* PBXTargetDependency */,
+				E0E41383AB6244D5B16F7D76 /* PBXTargetDependency */,
+				821D4EE69FC64D3384934E18 /* PBXTargetDependency */,
+			);
+			name = configure;
+			productName = configure;
+		};
+		7EDF968DE12D4066A9E6E6F8 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 28BCD6E9955246EB8FDE6006 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				BDF642BD00D743DEA2F80147 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		936CC30B14AF42B6B028C6AA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 71CAE36084F84BB89FE98922 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FC68C8878302427BA015C6D4 /* CMake Rules */,
+			);
+			dependencies = (
+				43D2AF86D3944E6789D5BCD1 /* PBXTargetDependency */,
+				7755985D9CAD4B38B7BF3171 /* PBXTargetDependency */,
+				F37664D5C835464297DEDA5B /* PBXTargetDependency */,
+				3FDBEA8BD9EA43B2A4D872AB /* PBXTargetDependency */,
+				D33964D114A741AC95A9824B /* PBXTargetDependency */,
+				A2C0D78F2D05424E99E8B138 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9CA702D47E6342FD963CFEC6 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D47BB80D2D0F422DA3104F61 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C35E2FC1D3B0448388E1DBF9 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				58D9CD9B23D44710A26E99EA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		A1852281BB3341B5B8E90A7B /* pretest */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 54E339108C764ED3B61BF17B /* Build configuration list for PBXAggregateTarget "pretest" */;
+			buildPhases = (
+			);
+			dependencies = (
+				75D3CD6BEB9C4F3C97A742CE /* PBXTargetDependency */,
+				F7A5CA76B042482AB47616B1 /* PBXTargetDependency */,
+			);
+			name = pretest;
+			productName = pretest;
+		};
+		AA0C3065CF8F4920BDF1A9E8 /* configure-mcberepair.version */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F79029248D2E4F9BA3498CCF /* Build configuration list for PBXAggregateTarget "configure-mcberepair.version" */;
+			buildPhases = (
+				99166D4F9D5E452683E4C54D /* CMake Rules */,
+			);
+			dependencies = (
+				9D186B7251034121A526DE70 /* PBXTargetDependency */,
+			);
+			name = "configure-mcberepair.version";
+			productName = "configure-mcberepair.version";
+		};
+		CAF1503550CD453F9E25E6D3 /* check_test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6D75FA955524CAEAB606AFE /* Build configuration list for PBXAggregateTarget "check_test" */;
+			buildPhases = (
+				EA0A7A05E7D7490EAFA90E0B /* CMake Rules */,
+			);
+			dependencies = (
+				88F5C8D6766244D8983DD81C /* PBXTargetDependency */,
+				8662AA92F54F468D80782C21 /* PBXTargetDependency */,
+			);
+			name = check_test;
+			productName = check_test;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		043E4D8F93964A0B897815CA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.h */ = {isa = PBXBuildFile; fileRef = 75E2ED38B5EC4E49BA534CB0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.h */; };
+		063CDF3F45184A5EBF8E25C3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch.cc */ = {isa = PBXBuildFile; fileRef = 125C0B80CA1342C3B980BAEF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch.cc */; };
+		0761FF31179C41B7ABE630AA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.cc */ = {isa = PBXBuildFile; fileRef = 7AD3FAEF8D0C4919B4C33D11 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.cc */; };
+		0965BF983BD34057913558C3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/no_destructor.h */ = {isa = PBXBuildFile; fileRef = 4D67A57DA77E41FE81DAF426 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/no_destructor.h */; };
+		0B5FB082148142BB8F28036E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/slice.h */ = {isa = PBXBuildFile; fileRef = B92A6F70176A4DC580D0C02F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/slice.h */; };
+		0CB1FEEAEB2C4669ACD6B7A6 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table.cc */ = {isa = PBXBuildFile; fileRef = 48E3E923808F4484AC17C50F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table.cc */; };
+		0F9F7ADCBA9240BB83976737 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/repair.cpp */ = {isa = PBXBuildFile; fileRef = C519D42C5A864EAB9B3690A2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/repair.cpp */; };
+		101F32A8C22449E4A080D2ED /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/dumpfile.h */ = {isa = PBXBuildFile; fileRef = 8CBD523F716844ED84856913 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/dumpfile.h */; };
+		105E7927CAE24B51986E11E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/db.hpp */ = {isa = PBXBuildFile; fileRef = 38A03340C45C4B6BA1AC7391 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/db.hpp */; };
+		14554C2A80824250868E275A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.h */ = {isa = PBXBuildFile; fileRef = 00448547991F46BEBD8B9B5B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.h */; };
+		159B31DA41B240A2A8EA8EC5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/copyall.cpp */ = {isa = PBXBuildFile; fileRef = 65631EF42E8E49A3A764C088 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/copyall.cpp */; };
+		17C197E2327F403AB0E98B97 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.cc */ = {isa = PBXBuildFile; fileRef = 233A30604C164452A3882DB1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.cc */; };
+		193005B669C243409B686386 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/filter_policy.cc */ = {isa = PBXBuildFile; fileRef = EDC958EBF05F4C2DB2A8B359 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/filter_policy.cc */; };
+		20ECBC7FE0F1481E9330CAA9 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.h */ = {isa = PBXBuildFile; fileRef = B4CC0E4E10B44EB6A2FD1482 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.h */; };
+		21AFF9D4184F4A208DAD8409 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.h */ = {isa = PBXBuildFile; fileRef = A75E57607D784880A79CB6B2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.h */; };
+		22648AB3785F4751B8396F3A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/decompress_allocator.h */ = {isa = PBXBuildFile; fileRef = 91EAF2978E0B4AE58C3AD3C2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/decompress_allocator.h */; };
+		246B8185A6B24AD0B16E622B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/compressor.h */ = {isa = PBXBuildFile; fileRef = 9644FC09D2F64C96A4C76CE9 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/compressor.h */; };
+		2AD4B6A72A444FCA8809334F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.h */ = {isa = PBXBuildFile; fileRef = B91A94E968124728B704979B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.h */; };
+		2B8D74CD77D0411BA52AD049 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.cc */ = {isa = PBXBuildFile; fileRef = EA0BBE87737E4F87A083395A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.cc */; };
+		2CB3D108AAF34849B7A5EB0A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/cache.h */ = {isa = PBXBuildFile; fileRef = 5929849DB8ED4F3CBF478D78 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/cache.h */; };
+		31AB7B002E0B47D59A39739A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/thread_annotations.h */ = {isa = PBXBuildFile; fileRef = CE991418D53D42DAB873E2B0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/thread_annotations.h */; };
+		32733C588D374E96A40044B6 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 29BBC6D4CDA340138F6B09EE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */; };
+		32807F22CB394AD3870459A4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/cache.cc */ = {isa = PBXBuildFile; fileRef = CAF1AA97056D484AB87351A3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/cache.cc */; };
+		34D9DEC41AC743EBA723409F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/random.h */ = {isa = PBXBuildFile; fileRef = B1176727A04641539C0BFCC1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/random.h */; };
+		34E0CC0C3B3549C28E9DF70E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/write_batch.h */ = {isa = PBXBuildFile; fileRef = 24A49B34DCEF4096A5BEB767 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/write_batch.h */; };
+		355361806A014100A74BE268 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/c.cc */ = {isa = PBXBuildFile; fileRef = 2AD1DD49CD3847C09600618B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/c.cc */; };
+		3650413CC396434E8E3D8580 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.cc */ = {isa = PBXBuildFile; fileRef = CA78051B820A44C381A74D66 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.cc */; };
+		367098B7C2AA4020A11A1B32 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.cc */ = {isa = PBXBuildFile; fileRef = 32BB05D7F0414E7BBAE9AEC2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.cc */; };
+		3A319E00B567411B86EBF363 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.h */ = {isa = PBXBuildFile; fileRef = ECADDE1759C042E785A0DFCB /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.h */; };
+		429891A1981244899651F688 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.cc */ = {isa = PBXBuildFile; fileRef = F8E6BC10D60D4B64B4561A87 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.cc */; };
+		430865F62F7A4C6F9785CE0D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/writekey.cpp */ = {isa = PBXBuildFile; fileRef = C9982D2E89A54897B5F53D84 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/writekey.cpp */; };
+		44DFB261A2144C9CB95450B4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.h */ = {isa = PBXBuildFile; fileRef = E12525BF4D3A44739F4E893D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.h */; };
+		49CA0DB530B64CCEBBF3AE2C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.h */ = {isa = PBXBuildFile; fileRef = 7492CBB2AB06421B8FE76446 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.h */; };
+		4A3A52AE6F704D4CA4DB5F87 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/env.h */ = {isa = PBXBuildFile; fileRef = BDCC47F97F964281AE47FAC8 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/env.h */; };
+		4AF0FDB17CF9443BBE7B0440 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.h */ = {isa = PBXBuildFile; fileRef = 6461F48C341549CCBD60F24E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.h */; };
+		4D9E67E299B54A70ABA2515B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.h */ = {isa = PBXBuildFile; fileRef = 8ABD1640F10247F3B7F0BAFF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.h */; };
+		500D02C256A647688C698014 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/comparator.cc */ = {isa = PBXBuildFile; fileRef = C724F2E1C805456F821DD8DC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/comparator.cc */; };
+		540E9C2BEAF345B1A7FBB48F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include/port/port_config.h */ = {isa = PBXBuildFile; fileRef = 5A2D2E905A714175B9628B4E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include/port/port_config.h */; };
+		570AF1B50F33497B8CEC36F9 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.h */ = {isa = PBXBuildFile; fileRef = 459BDD52CC7F4A04811EFE5A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.h */; };
+		59721F2A900D499FB7776DA4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.h */ = {isa = PBXBuildFile; fileRef = 39621F3FEB954DBA9ED1C83D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.h */; };
+		5A4B95CB42DC4E4F8EC2673E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.cc */ = {isa = PBXBuildFile; fileRef = 4D258B823D6C4F3C91C0DBEF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.cc */; };
+		5A92BB4861464A16A8D67B9F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator_wrapper.h */ = {isa = PBXBuildFile; fileRef = 514E210FF6964697BED1816D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator_wrapper.h */; };
+		5CAA131F86324B7A9D55436A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.h */ = {isa = PBXBuildFile; fileRef = 4F62476172264F0B9398CE49 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.h */; };
+		5D7D981A172E459AA4B15525 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snapshot.h */ = {isa = PBXBuildFile; fileRef = 38B9B908F3674B37B852D489 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snapshot.h */; };
+		5E7B3AFC82DD435EAA1D38D5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_format.h */ = {isa = PBXBuildFile; fileRef = 25D3FD76A4A94BAF909D5551 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_format.h */; };
+		69CDB644B06E48EFB8C07BC2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.h */ = {isa = PBXBuildFile; fileRef = FB6880FF874140BC8B8C7544 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.h */; };
+		6C784182D23D44CAB320C9B8 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.cc */ = {isa = PBXBuildFile; fileRef = 32F12791F5CE4371B200159A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.cc */; };
+		6C9BAA02C2884550B9C04B62 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.h */ = {isa = PBXBuildFile; fileRef = D96D2D7845674159960E2CF4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.h */; };
+		6EB56FC09144436AB7B2D0E2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/db.h */ = {isa = PBXBuildFile; fileRef = A3D56E6287054F51BAD17AAD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/db.h */; };
+		7677AD37044B43E58EF7E0ED /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.h */ = {isa = PBXBuildFile; fileRef = A4F624C1F3A540B2B0F0B978 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.h */; };
+		77AD8D7F107648D0A6FF61C7 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.cc */ = {isa = PBXBuildFile; fileRef = E452BCC2ED3B4ADFB87FFDF5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.cc */; };
+		78625D21C7FB4718901C16C1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table_builder.cc */ = {isa = PBXBuildFile; fileRef = D6D75BF2E7DB44E5B687D18E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table_builder.cc */; };
+		7886517ADC20439CA192053E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/listkeys.cpp */ = {isa = PBXBuildFile; fileRef = 8554BBF21B2C4A53820204D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/listkeys.cpp */; };
+		7DA388AFD13E4C4CA45C3371 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/leveldbutil.cc */ = {isa = PBXBuildFile; fileRef = B8E14F53FD434FB3922C5880 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/leveldbutil.cc */; };
+		7EF3A7C06D25454691275A2C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.h */ = {isa = PBXBuildFile; fileRef = 82F2F1C635934E5B93A8F019 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.h */; };
+		8158872E1AEC43BE8ECE2308 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.cc */ = {isa = PBXBuildFile; fileRef = 07FCB14D1D1F4979984105F7 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.cc */; };
+		81CF19B1707848428EF1EB67 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.h */ = {isa = PBXBuildFile; fileRef = C9D221D98D0D419895D292B0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.h */; };
+		856D7EC2BB254F5787FC31AE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/options.cc */ = {isa = PBXBuildFile; fileRef = 1ACF4120A9B244F6B1D92B5A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/options.cc */; };
+		86343D116FFE4131B7DB979A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.h */ = {isa = PBXBuildFile; fileRef = 4C7D74D044234F648448C717 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.h */; };
+		880E7F6AC228487B882422DE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/iterator.h */ = {isa = PBXBuildFile; fileRef = B6DFF1CF24F04C6093605BD0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/iterator.h */; };
+		89D1C32A1BF24FC4B8167245 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/zlib_compressor.cc */ = {isa = PBXBuildFile; fileRef = D985370360614488A77CA18F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/zlib_compressor.cc */; };
+		8D1DA15F1A0D4BB4AADECD95 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.cc */ = {isa = PBXBuildFile; fileRef = 85A8EA8527A8419A87B9E67D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.cc */; };
+		8EA49B62AFE445ECB881710A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.cc */ = {isa = PBXBuildFile; fileRef = 122ADFD15A9A4A5093F67CBA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.cc */; };
+		9033093041AC4F9ABE443C50 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator.cc */ = {isa = PBXBuildFile; fileRef = BD733B555B2D488588A5B238 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator.cc */; };
+		9152196BED0B4E71B16A2017 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.cc */ = {isa = PBXBuildFile; fileRef = E7624C8646CD448386B9CA4A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.cc */; };
+		944DB9BE62814B7292B2A227 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/zlib_compressor.h */ = {isa = PBXBuildFile; fileRef = 6594188698CB41E793FB135C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/zlib_compressor.h */; };
+		95A78A5E4BF741629111C911 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.cc */ = {isa = PBXBuildFile; fileRef = A02F20E2D8FF4C4EADF51548 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.cc */; };
+		98224D92D6174C819AB4E4D3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/repair.cc */ = {isa = PBXBuildFile; fileRef = 51283A96AE5C4BF7A8BF5C50 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/repair.cc */; };
+		9A7C06B46423450FADC5870A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.h */ = {isa = PBXBuildFile; fileRef = D127639CE98A4DFCB5D12B66 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.h */; };
+		9E014CC5BA1C49938C06ED11 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port_stdcxx.h */ = {isa = PBXBuildFile; fileRef = 7A4E5023D42545A0B958F6CA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port_stdcxx.h */; };
+		9EB7E665EB8B4800B0C48ADD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.cc */ = {isa = PBXBuildFile; fileRef = 4AD68662B5A948B2AF153291 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.cc */; };
+		9F4A80F26E984845BE2FC813 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table_builder.h */ = {isa = PBXBuildFile; fileRef = 3B895BA9E8B84D7893D75D2D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table_builder.h */; };
+		9F6E30DB8E094A4F8CC0C8F0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/comparator.h */ = {isa = PBXBuildFile; fileRef = E6AE54EFDC2846089EFCB321 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/comparator.h */; };
+		A6DED81D10E34D6496EAB5AF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.cc */ = {isa = PBXBuildFile; fileRef = 5514AFA96C10477CBBD79481 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.cc */; };
+		A79468D1CA6A4C39A9F48EE0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.cc */ = {isa = PBXBuildFile; fileRef = 64D19451827943B0B70CA2D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.cc */; };
+		A89C5A8968E04AEDBCFC5F40 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/skiplist.h */ = {isa = PBXBuildFile; fileRef = 66CC2D68A07043CEA36EC934 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/skiplist.h */; };
+		AA5A5CEC435E476596EC3AFE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.cc */ = {isa = PBXBuildFile; fileRef = FD1C4AC49DF44D43B31CE4A0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.cc */; };
+		AB8735D91AA741FCAEE8055F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.h */ = {isa = PBXBuildFile; fileRef = 06F578C45E454B9FBAD5586D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.h */; };
+		AED29B740E4F4C759C12060A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/mutexlock.h */ = {isa = PBXBuildFile; fileRef = 7E68B11F2E804ACDA692EC3C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/mutexlock.h */; };
+		B0012E1C42634FFEA61D1126 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC04F0001A0B4FFBAB6878C1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */; };
+		B1A7CB62324D4147861ED54C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch_internal.h */ = {isa = PBXBuildFile; fileRef = 4FB0AD95BBD94A9A882BE5E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch_internal.h */; };
+		B1BF8625459542DE8C5F02D0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/dumpkey.cpp */ = {isa = PBXBuildFile; fileRef = 7D33566A8F274C8AB598B847 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/dumpkey.cpp */; };
+		B4156ECA9837478AA745D33F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/posix_logger.h */ = {isa = PBXBuildFile; fileRef = A6F693E16C9C452F97ADC390 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/posix_logger.h */; };
+		BE28319A2E0C425BA63CC77E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/options.h */ = {isa = PBXBuildFile; fileRef = 67D9A472CE8C4DD3B5DE4E19 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/options.h */; };
+		BE3CAED2BA5A4573B038B498 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/mcbekey.hpp */ = {isa = PBXBuildFile; fileRef = 4F1C194BAB0649FEBBD19B00 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/mcbekey.hpp */; };
+		BE8C4CB78BCD46838902FC74 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/status.cc */ = {isa = PBXBuildFile; fileRef = 7ED3E83E6AF74A22A0C4D7FF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/status.cc */; };
+		C42E0FDEE3564194AF8B4B1F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/slurp.hpp */ = {isa = PBXBuildFile; fileRef = B3E1738139F6415EAA61695A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/slurp.hpp */; };
+		C5A7F20DC4E34EB2A24BF250 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.cc */ = {isa = PBXBuildFile; fileRef = F86AB8D7F1CE4B62B78672AD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.cc */; };
+		CA7C603DA10A473796492A06 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.cc */ = {isa = PBXBuildFile; fileRef = 9B1EB7A0C67B44A0A051B86D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.cc */; };
+		CCBE8E4607874400B4CD2497 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env_posix.cc */ = {isa = PBXBuildFile; fileRef = 5E36D9622B82480AAEE77884 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env_posix.cc */; };
+		CEB51A36D3F74B7394176FB6 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/status.h */ = {isa = PBXBuildFile; fileRef = F7D46A4288104EA98104D0DA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/status.h */; };
+		CF28A1B6664448B4A08CFE4C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.cc */ = {isa = PBXBuildFile; fileRef = ED1EDB8317F4450F96F4BB5D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.cc */; };
+		D06189228A8E49AFA2B90DF8 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table.h */ = {isa = PBXBuildFile; fileRef = EF9FA3A764974FF3BE15E218 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table.h */; };
+		D6B1F2A1B7F0435C9C67F516 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.cc */ = {isa = PBXBuildFile; fileRef = 6F92139FBDC94CD9805FC31C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.cc */; };
+		DD813895DFCB41458BC3AE54 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/snappy_compressor.h */ = {isa = PBXBuildFile; fileRef = 7D7588D0F624493E8C151391 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/snappy_compressor.h */; };
+		DE3912206A474E9085F58746 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env.cc */ = {isa = PBXBuildFile; fileRef = 880663B6D9F642C69A74EAD2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env.cc */; };
+		E1040CE5D114465E97C3E2D2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/perenc.hpp */ = {isa = PBXBuildFile; fileRef = 5CF91FFE786146FDB44E021C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/perenc.hpp */; };
+		E40E54CBF1CF42B09C7EE5A6 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/export.h */ = {isa = PBXBuildFile; fileRef = 5CCA959CF6D14707A9342033 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/export.h */; };
+		E4419558AD554DBEB1D2A0B1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/filter_policy.h */ = {isa = PBXBuildFile; fileRef = 5C13942BFC084090BF67A748 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/filter_policy.h */; };
+		E649EC3ED02F41D3922ECD77 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/main.cpp */ = {isa = PBXBuildFile; fileRef = 334FD2B492294142A350F87A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/main.cpp */; };
+		E7088675A5F545E88C146EAC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dumpfile.cc */ = {isa = PBXBuildFile; fileRef = 90C1C71749964BA9B80208E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dumpfile.cc */; };
+		E8ECE961E54C4A1088F199E2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/bloom.cc */ = {isa = PBXBuildFile; fileRef = BABBBFBB4CA34121BD3A44F4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/bloom.cc */; };
+		ECB6A5837DE64A63BDCB829A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port.h */ = {isa = PBXBuildFile; fileRef = C09CFB75EB9E47EFA8527BCA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port.h */; };
+		EECB8E11F61C4748B488E3DB /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/rmkeys.cpp */ = {isa = PBXBuildFile; fileRef = BAA02AC212D94F878DC83915 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/rmkeys.cpp */; };
+		EF8BC46BFCD34324930840BC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snappy_compressor.cc */ = {isa = PBXBuildFile; fileRef = 721C6987146B46518E104D0B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snappy_compressor.cc */; };
+		F1CA857F1DB84F60B7E8DA69 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/c.h */ = {isa = PBXBuildFile; fileRef = CC12FEF917AF4E47B0BC252C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/c.h */; };
+		F5B3773711D6480497407593 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.h */ = {isa = PBXBuildFile; fileRef = 17D2DDD42AAE44509E07AE78 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.h */; };
+		F75DE8A7FC0845ABA0C4B34A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.cc */ = {isa = PBXBuildFile; fileRef = 4B39521574DB4BA6BBB3E4E1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.cc */; };
+		F779E75D3F8E44E6B6DB81FE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.h */ = {isa = PBXBuildFile; fileRef = 5640CE020D7540F1BFAB125B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.h */; };
+		FC1EB891B4164CE48EC2C52F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 774347D329AD4013AD62479C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		18EC5B28BC0C44989EA7B7B3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9FFBD30A8255491F8518BAC8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E81F1A3D9D7349889F7DE558 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FC41566FD9D44F05A203D350 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF515DA052A408F87219E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936CC30B14AF42B6B028C6AA;
+			remoteInfo = ALL_BUILD;
+		};
+		12375BDBA12F44CBA6A2CF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936CC30B14AF42B6B028C6AA;
+			remoteInfo = ALL_BUILD;
+		};
+		1F1651CA36C04197B07A96C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		255E2AAFCC3940BF826C82C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		302F5E20D4D44F28885CC136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF1503550CD453F9E25E6D3;
+			remoteInfo = check_test;
+		};
+		33AE87C3489240E9B4CD675F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBDB0965204085AE8D4F1F;
+			remoteInfo = "configure-version.h";
+		};
+		3A029A6E32714F84952DE7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC95DE3A76C42BE96B624F0;
+			remoteInfo = configure;
+		};
+		4264D2D84C204A12939F6346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15B528F697478BB8F75A86;
+			remoteInfo = leveldbutil;
+		};
+		579B54EC392E459480323BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1852281BB3341B5B8E90A7B;
+			remoteInfo = pretest;
+		};
+		61DE323FB66E44F0B5505A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9411113004A04EB3AA9E5E16;
+			remoteInfo = leveldb;
+		};
+		66CC220F95A34ACC9B89F447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0C3065CF8F4920BDF1A9E8;
+			remoteInfo = "configure-mcberepair.version";
+		};
+		6AAA4EDAD57742098E89858C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC95DE3A76C42BE96B624F0;
+			remoteInfo = configure;
+		};
+		71E3E9F1A23B41F5B8DC9A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1852281BB3341B5B8E90A7B;
+			remoteInfo = pretest;
+		};
+		7281B84EFAE8447AA8C879C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9411113004A04EB3AA9E5E16;
+			remoteInfo = leveldb;
+		};
+		BAAE90BB7AF943B0A7786FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		BCD9A7B0DF7E4EB3906DB17B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		C1EB15D28A1E493C97658FD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		C55A8B60076A472EACF1257D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EBDB0965204085AE8D4F1F;
+			remoteInfo = "configure-version.h";
+		};
+		D45811925A1B4EB6B0F1A64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0C3065CF8F4920BDF1A9E8;
+			remoteInfo = "configure-mcberepair.version";
+		};
+		D4AFF24D72F142B59D372BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D9D6C22B3040EDBBBC8793;
+			remoteInfo = mcberepair;
+		};
+		D88C84F9955D4AAD9E3D1FC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		DD4C21B72C0C4FEE86793B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+		FAA7CF882B504277B40EF90D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9411113004A04EB3AA9E5E16;
+			remoteInfo = leveldb;
+		};
+		FE2DD892A85D46CDBD5EFCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E659E332C726419189AB5F5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AC7CDBDC11546E98AAF8094;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00448547991F46BEBD8B9B5B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log_reader.h; path = "leveldb-mcpe/db/log_reader.h"; sourceTree = SOURCE_ROOT; };
+		06F578C45E454B9FBAD5586D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = db_impl.h; path = "leveldb-mcpe/db/db_impl.h"; sourceTree = SOURCE_ROOT; };
+		07FCB14D1D1F4979984105F7 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hash.cc; path = "leveldb-mcpe/util/hash.cc"; sourceTree = SOURCE_ROOT; };
+		122ADFD15A9A4A5093F67CBA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log_writer.cc; path = "leveldb-mcpe/db/log_writer.cc"; sourceTree = SOURCE_ROOT; };
+		125C0B80CA1342C3B980BAEF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = write_batch.cc; path = "leveldb-mcpe/db/write_batch.cc"; sourceTree = SOURCE_ROOT; };
+		1271C3A3F53949F8A648ED38 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		12D5822CB3DF426FB8C1CC3D /* leveldbutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = leveldbutil; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D2DDD42AAE44509E07AE78 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = coding.h; path = "leveldb-mcpe/util/coding.h"; sourceTree = SOURCE_ROOT; };
+		1AA766BC516C4C009441505C /* mcberepair */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = mcberepair; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACF4120A9B244F6B1D92B5A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/options.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = options.cc; path = "leveldb-mcpe/util/options.cc"; sourceTree = SOURCE_ROOT; };
+		233A30604C164452A3882DB1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filter_block.cc; path = "leveldb-mcpe/table/filter_block.cc"; sourceTree = SOURCE_ROOT; };
+		24A49B34DCEF4096A5BEB767 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/write_batch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = write_batch.h; path = "leveldb-mcpe/include/leveldb/write_batch.h"; sourceTree = SOURCE_ROOT; };
+		25D3FD76A4A94BAF909D5551 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_format.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log_format.h; path = "leveldb-mcpe/db/log_format.h"; sourceTree = SOURCE_ROOT; };
+		29BBC6D4CDA340138F6B09EE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AD1DD49CD3847C09600618B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/c.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = c.cc; path = "leveldb-mcpe/db/c.cc"; sourceTree = SOURCE_ROOT; };
+		32BB05D7F0414E7BBAE9AEC2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filename.cc; path = "leveldb-mcpe/db/filename.cc"; sourceTree = SOURCE_ROOT; };
+		32F12791F5CE4371B200159A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = db_impl.cc; path = "leveldb-mcpe/db/db_impl.cc"; sourceTree = SOURCE_ROOT; };
+		334FD2B492294142A350F87A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		357B3D653FA84826B8130CED /* leveldb */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libleveldb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D340782F3243C3837667AD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		38A03340C45C4B6BA1AC7391 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/db.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = db.hpp; path = db.hpp; sourceTree = SOURCE_ROOT; };
+		38B9B908F3674B37B852D489 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snapshot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snapshot.h; path = "leveldb-mcpe/db/snapshot.h"; sourceTree = SOURCE_ROOT; };
+		39621F3FEB954DBA9ED1C83D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logging.h; path = "leveldb-mcpe/util/logging.h"; sourceTree = SOURCE_ROOT; };
+		3B895BA9E8B84D7893D75D2D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table_builder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = table_builder.h; path = "leveldb-mcpe/include/leveldb/table_builder.h"; sourceTree = SOURCE_ROOT; };
+		459BDD52CC7F4A04811EFE5A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = table_cache.h; path = "leveldb-mcpe/db/table_cache.h"; sourceTree = SOURCE_ROOT; };
+		48E3E923808F4484AC17C50F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = table.cc; path = "leveldb-mcpe/table/table.cc"; sourceTree = SOURCE_ROOT; };
+		4AD68662B5A948B2AF153291 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dbformat.cc; path = "leveldb-mcpe/db/dbformat.cc"; sourceTree = SOURCE_ROOT; };
+		4B39521574DB4BA6BBB3E4E1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = format.cc; path = "leveldb-mcpe/table/format.cc"; sourceTree = SOURCE_ROOT; };
+		4C7D74D044234F648448C717 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version_edit.h; path = "leveldb-mcpe/db/version_edit.h"; sourceTree = SOURCE_ROOT; };
+		4C90F8251E154E0387BCFD82 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D258B823D6C4F3C91C0DBEF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = block_builder.cc; path = "leveldb-mcpe/table/block_builder.cc"; sourceTree = SOURCE_ROOT; };
+		4D67A57DA77E41FE81DAF426 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/no_destructor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = no_destructor.h; path = "leveldb-mcpe/util/no_destructor.h"; sourceTree = SOURCE_ROOT; };
+		4F1C194BAB0649FEBBD19B00 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/mcbekey.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mcbekey.hpp; path = mcbekey.hpp; sourceTree = SOURCE_ROOT; };
+		4F62476172264F0B9398CE49 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = builder.h; path = "leveldb-mcpe/db/builder.h"; sourceTree = SOURCE_ROOT; };
+		4FB0AD95BBD94A9A882BE5E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = write_batch_internal.h; path = "leveldb-mcpe/db/write_batch_internal.h"; sourceTree = SOURCE_ROOT; };
+		51283A96AE5C4BF7A8BF5C50 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/repair.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repair.cc; path = "leveldb-mcpe/db/repair.cc"; sourceTree = SOURCE_ROOT; };
+		514E210FF6964697BED1816D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator_wrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iterator_wrapper.h; path = "leveldb-mcpe/table/iterator_wrapper.h"; sourceTree = SOURCE_ROOT; };
+		5514AFA96C10477CBBD79481 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = block.cc; path = "leveldb-mcpe/table/block.cc"; sourceTree = SOURCE_ROOT; };
+		5640CE020D7540F1BFAB125B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version_set.h; path = "leveldb-mcpe/db/version_set.h"; sourceTree = SOURCE_ROOT; };
+		5929849DB8ED4F3CBF478D78 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/cache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cache.h; path = "leveldb-mcpe/include/leveldb/cache.h"; sourceTree = SOURCE_ROOT; };
+		5A2D2E905A714175B9628B4E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include/port/port_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = port_config.h; path = "xcode/leveldb-mcpe/include/port/port_config.h"; sourceTree = SOURCE_ROOT; };
+		5C13942BFC084090BF67A748 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/filter_policy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filter_policy.h; path = "leveldb-mcpe/include/leveldb/filter_policy.h"; sourceTree = SOURCE_ROOT; };
+		5CCA959CF6D14707A9342033 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/export.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = export.h; path = "leveldb-mcpe/include/leveldb/export.h"; sourceTree = SOURCE_ROOT; };
+		5CF91FFE786146FDB44E021C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/perenc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perenc.hpp; path = perenc.hpp; sourceTree = SOURCE_ROOT; };
+		5E36D9622B82480AAEE77884 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env_posix.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = env_posix.cc; path = "leveldb-mcpe/util/env_posix.cc"; sourceTree = SOURCE_ROOT; };
+		6461F48C341549CCBD60F24E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log_writer.h; path = "leveldb-mcpe/db/log_writer.h"; sourceTree = SOURCE_ROOT; };
+		64D19451827943B0B70CA2D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = db_iter.cc; path = "leveldb-mcpe/db/db_iter.cc"; sourceTree = SOURCE_ROOT; };
+		65631EF42E8E49A3A764C088 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/copyall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = copyall.cpp; path = copyall.cpp; sourceTree = SOURCE_ROOT; };
+		6594188698CB41E793FB135C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/zlib_compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zlib_compressor.h; path = "leveldb-mcpe/include/leveldb/zlib_compressor.h"; sourceTree = SOURCE_ROOT; };
+		65946B885D8D4773BBA440D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		66CC2D68A07043CEA36EC934 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/skiplist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = skiplist.h; path = "leveldb-mcpe/db/skiplist.h"; sourceTree = SOURCE_ROOT; };
+		67D9A472CE8C4DD3B5DE4E19 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/options.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = options.h; path = "leveldb-mcpe/include/leveldb/options.h"; sourceTree = SOURCE_ROOT; };
+		6F92139FBDC94CD9805FC31C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log_reader.cc; path = "leveldb-mcpe/db/log_reader.cc"; sourceTree = SOURCE_ROOT; };
+		721C6987146B46518E104D0B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snappy_compressor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = snappy_compressor.cc; path = "leveldb-mcpe/db/snappy_compressor.cc"; sourceTree = SOURCE_ROOT; };
+		7492CBB2AB06421B8FE76446 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = db_iter.h; path = "leveldb-mcpe/db/db_iter.h"; sourceTree = SOURCE_ROOT; };
+		75E2ED38B5EC4E49BA534CB0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crc32c.h; path = "leveldb-mcpe/util/crc32c.h"; sourceTree = SOURCE_ROOT; };
+		774347D329AD4013AD62479C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "leveldb-mcpe/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		7A4E5023D42545A0B958F6CA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port_stdcxx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = port_stdcxx.h; path = "leveldb-mcpe/port/port_stdcxx.h"; sourceTree = SOURCE_ROOT; };
+		7AD3FAEF8D0C4919B4C33D11 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = merger.cc; path = "leveldb-mcpe/table/merger.cc"; sourceTree = SOURCE_ROOT; };
+		7D33566A8F274C8AB598B847 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/dumpkey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dumpkey.cpp; path = dumpkey.cpp; sourceTree = SOURCE_ROOT; };
+		7D7588D0F624493E8C151391 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/snappy_compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = snappy_compressor.h; path = "leveldb-mcpe/include/leveldb/snappy_compressor.h"; sourceTree = SOURCE_ROOT; };
+		7E68B11F2E804ACDA692EC3C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/mutexlock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mutexlock.h; path = "leveldb-mcpe/util/mutexlock.h"; sourceTree = SOURCE_ROOT; };
+		7ED3E83E6AF74A22A0C4D7FF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = "leveldb-mcpe/util/status.cc"; sourceTree = SOURCE_ROOT; };
+		82F2F1C635934E5B93A8F019 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filename.h; path = "leveldb-mcpe/db/filename.h"; sourceTree = SOURCE_ROOT; };
+		8554BBF21B2C4A53820204D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/listkeys.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = listkeys.cpp; path = listkeys.cpp; sourceTree = SOURCE_ROOT; };
+		85A8EA8527A8419A87B9E67D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = version_edit.cc; path = "leveldb-mcpe/db/version_edit.cc"; sourceTree = SOURCE_ROOT; };
+		880663B6D9F642C69A74EAD2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = env.cc; path = "leveldb-mcpe/util/env.cc"; sourceTree = SOURCE_ROOT; };
+		8ABD1640F10247F3B7F0BAFF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = memenv.h; path = "leveldb-mcpe/helpers/memenv/memenv.h"; sourceTree = SOURCE_ROOT; };
+		8CBD523F716844ED84856913 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/dumpfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dumpfile.h; path = "leveldb-mcpe/include/leveldb/dumpfile.h"; sourceTree = SOURCE_ROOT; };
+		90C1C71749964BA9B80208E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dumpfile.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dumpfile.cc; path = "leveldb-mcpe/db/dumpfile.cc"; sourceTree = SOURCE_ROOT; };
+		91EAF2978E0B4AE58C3AD3C2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/decompress_allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decompress_allocator.h; path = "leveldb-mcpe/include/leveldb/decompress_allocator.h"; sourceTree = SOURCE_ROOT; };
+		9644FC09D2F64C96A4C76CE9 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = compressor.h; path = "leveldb-mcpe/include/leveldb/compressor.h"; sourceTree = SOURCE_ROOT; };
+		9B1EB7A0C67B44A0A051B86D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coding.cc; path = "leveldb-mcpe/util/coding.cc"; sourceTree = SOURCE_ROOT; };
+		9B75B49771974B3DABF1D0F1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A02F20E2D8FF4C4EADF51548 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = two_level_iterator.cc; path = "leveldb-mcpe/table/two_level_iterator.cc"; sourceTree = SOURCE_ROOT; };
+		A3D56E6287054F51BAD17AAD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/db.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = db.h; path = "leveldb-mcpe/include/leveldb/db.h"; sourceTree = SOURCE_ROOT; };
+		A4F624C1F3A540B2B0F0B978 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = block.h; path = "leveldb-mcpe/table/block.h"; sourceTree = SOURCE_ROOT; };
+		A6F693E16C9C452F97ADC390 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/posix_logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_logger.h; path = "leveldb-mcpe/util/posix_logger.h"; sourceTree = SOURCE_ROOT; };
+		A75E57607D784880A79CB6B2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = merger.h; path = "leveldb-mcpe/table/merger.h"; sourceTree = SOURCE_ROOT; };
+		B1176727A04641539C0BFCC1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random.h; path = "leveldb-mcpe/util/random.h"; sourceTree = SOURCE_ROOT; };
+		B3E1738139F6415EAA61695A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/slurp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = slurp.hpp; path = slurp.hpp; sourceTree = SOURCE_ROOT; };
+		B4CC0E4E10B44EB6A2FD1482 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format.h; path = "leveldb-mcpe/table/format.h"; sourceTree = SOURCE_ROOT; };
+		B6DFF1CF24F04C6093605BD0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iterator.h; path = "leveldb-mcpe/include/leveldb/iterator.h"; sourceTree = SOURCE_ROOT; };
+		B8E14F53FD434FB3922C5880 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/leveldbutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = leveldbutil.cc; path = "leveldb-mcpe/db/leveldbutil.cc"; sourceTree = SOURCE_ROOT; };
+		B91A94E968124728B704979B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hash.h; path = "leveldb-mcpe/util/hash.h"; sourceTree = SOURCE_ROOT; };
+		B92A6F70176A4DC580D0C02F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/slice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slice.h; path = "leveldb-mcpe/include/leveldb/slice.h"; sourceTree = SOURCE_ROOT; };
+		BAA02AC212D94F878DC83915 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/rmkeys.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rmkeys.cpp; path = rmkeys.cpp; sourceTree = SOURCE_ROOT; };
+		BABBBFBB4CA34121BD3A44F4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/bloom.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bloom.cc; path = "leveldb-mcpe/util/bloom.cc"; sourceTree = SOURCE_ROOT; };
+		BD733B555B2D488588A5B238 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iterator.cc; path = "leveldb-mcpe/table/iterator.cc"; sourceTree = SOURCE_ROOT; };
+		BDCC47F97F964281AE47FAC8 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/env.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = env.h; path = "leveldb-mcpe/include/leveldb/env.h"; sourceTree = SOURCE_ROOT; };
+		C09CFB75EB9E47EFA8527BCA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = port.h; path = "leveldb-mcpe/port/port.h"; sourceTree = SOURCE_ROOT; };
+		C0ADC9EB19B04938B2EDA76C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C519D42C5A864EAB9B3690A2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/repair.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repair.cpp; path = repair.cpp; sourceTree = SOURCE_ROOT; };
+		C724F2E1C805456F821DD8DC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/comparator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = comparator.cc; path = "leveldb-mcpe/util/comparator.cc"; sourceTree = SOURCE_ROOT; };
+		C9982D2E89A54897B5F53D84 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/writekey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = writekey.cpp; path = writekey.cpp; sourceTree = SOURCE_ROOT; };
+		C9D221D98D0D419895D292B0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filter_block.h; path = "leveldb-mcpe/table/filter_block.h"; sourceTree = SOURCE_ROOT; };
+		CA78051B820A44C381A74D66 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logging.cc; path = "leveldb-mcpe/util/logging.cc"; sourceTree = SOURCE_ROOT; };
+		CAF1AA97056D484AB87351A3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/cache.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cache.cc; path = "leveldb-mcpe/util/cache.cc"; sourceTree = SOURCE_ROOT; };
+		CC12FEF917AF4E47B0BC252C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = c.h; path = "leveldb-mcpe/include/leveldb/c.h"; sourceTree = SOURCE_ROOT; };
+		CE991418D53D42DAB873E2B0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/thread_annotations.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = thread_annotations.h; path = "leveldb-mcpe/port/thread_annotations.h"; sourceTree = SOURCE_ROOT; };
+		D127639CE98A4DFCB5D12B66 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = two_level_iterator.h; path = "leveldb-mcpe/table/two_level_iterator.h"; sourceTree = SOURCE_ROOT; };
+		D3EDC28E184D402D91DB3FBF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/version.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = version.h.in; path = version.h.in; sourceTree = SOURCE_ROOT; };
+		D6D75BF2E7DB44E5B687D18E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table_builder.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = table_builder.cc; path = "leveldb-mcpe/table/table_builder.cc"; sourceTree = SOURCE_ROOT; };
+		D96D2D7845674159960E2CF4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = block_builder.h; path = "leveldb-mcpe/table/block_builder.h"; sourceTree = SOURCE_ROOT; };
+		D985370360614488A77CA18F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/zlib_compressor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zlib_compressor.cc; path = "leveldb-mcpe/db/zlib_compressor.cc"; sourceTree = SOURCE_ROOT; };
+		DC04F0001A0B4FFBAB6878C1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "leveldb-mcpe/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		E12525BF4D3A44739F4E893D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = memtable.h; path = "leveldb-mcpe/db/memtable.h"; sourceTree = SOURCE_ROOT; };
+		E452BCC2ED3B4ADFB87FFDF5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = memtable.cc; path = "leveldb-mcpe/db/memtable.cc"; sourceTree = SOURCE_ROOT; };
+		E6AE54EFDC2846089EFCB321 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/comparator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = comparator.h; path = "leveldb-mcpe/include/leveldb/comparator.h"; sourceTree = SOURCE_ROOT; };
+		E7624C8646CD448386B9CA4A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = table_cache.cc; path = "leveldb-mcpe/db/table_cache.cc"; sourceTree = SOURCE_ROOT; };
+		EA0BBE87737E4F87A083395A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = memenv.cc; path = "leveldb-mcpe/helpers/memenv/memenv.cc"; sourceTree = SOURCE_ROOT; };
+		EB9BDCF2E6564908B0A9CD3E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ECADDE1759C042E785A0DFCB /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = arena.h; path = "leveldb-mcpe/util/arena.h"; sourceTree = SOURCE_ROOT; };
+		ED1EDB8317F4450F96F4BB5D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = version_set.cc; path = "leveldb-mcpe/db/version_set.cc"; sourceTree = SOURCE_ROOT; };
+		EDC958EBF05F4C2DB2A8B359 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/filter_policy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filter_policy.cc; path = "leveldb-mcpe/util/filter_policy.cc"; sourceTree = SOURCE_ROOT; };
+		EF9FA3A764974FF3BE15E218 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = table.h; path = "leveldb-mcpe/include/leveldb/table.h"; sourceTree = SOURCE_ROOT; };
+		F7D46A4288104EA98104D0DA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/status.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = status.h; path = "leveldb-mcpe/include/leveldb/status.h"; sourceTree = SOURCE_ROOT; };
+		F86AB8D7F1CE4B62B78672AD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = crc32c.cc; path = "leveldb-mcpe/util/crc32c.cc"; sourceTree = SOURCE_ROOT; };
+		F8E6BC10D60D4B64B4561A87 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = "leveldb-mcpe/util/arena.cc"; sourceTree = SOURCE_ROOT; };
+		FB6880FF874140BC8B8C7544 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dbformat.h; path = "leveldb-mcpe/db/dbformat.h"; sourceTree = SOURCE_ROOT; };
+		FD1C4AC49DF44D43B31CE4A0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = builder.cc; path = "leveldb-mcpe/db/builder.cc"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0ACA03DF9B8C4ABFB07603AF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1446727C4D6B4F0FB7791BF6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8E14F53FD434FB3922C5880 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/leveldbutil.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		164089F0198E417BB3963227 /* configure */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADC9EB19B04938B2EDA76C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = configure;
+			sourceTree = "<group>";
+		};
+		240EA9F07E4E4013934FD79D /* pretest */ = {
+			isa = PBXGroup;
+			children = (
+				65946B885D8D4773BBA440D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = pretest;
+			sourceTree = "<group>";
+		};
+		28CBAC9AF50F4E62A4AA3695 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2E62E1689762498C9A01BA5B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		30E1627641B14AF4A338B148 /* Configured Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EDC28E184D402D91DB3FBF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/version.h.in */,
+			);
+			name = "Configured Files";
+			sourceTree = "<group>";
+		};
+		315D6C891ADB440D831FA782 /* configure-mcberepair.version */ = {
+			isa = PBXGroup;
+			children = (
+				D60EAA1ECB7349488EF8A83D /* Configured Files */,
+				0ACA03DF9B8C4ABFB07603AF /* CMake Rules */,
+				4C90F8251E154E0387BCFD82 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = "configure-mcberepair.version";
+			sourceTree = "<group>";
+		};
+		369169B7A3A64AC2AE274A31 /* leveldb */ = {
+			isa = PBXGroup;
+			children = (
+				FCCDF37406E3432CA2D58716 /* Header Files */,
+				B443B89642D6446698CA600D /* Source Files */,
+				774347D329AD4013AD62479C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */,
+			);
+			name = leveldb;
+			sourceTree = "<group>";
+		};
+		3804933778EB4D3AB1BDD935 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		38F3216E0FEE4BBF9FC2D7A4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				65631EF42E8E49A3A764C088 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/copyall.cpp */,
+				7D33566A8F274C8AB598B847 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/dumpkey.cpp */,
+				8554BBF21B2C4A53820204D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/listkeys.cpp */,
+				334FD2B492294142A350F87A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/main.cpp */,
+				C519D42C5A864EAB9B3690A2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/repair.cpp */,
+				BAA02AC212D94F878DC83915 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/rmkeys.cpp */,
+				C9982D2E89A54897B5F53D84 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/writekey.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		40F8D63B94634BC78D18EFBC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A03340C45C4B6BA1AC7391 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/db.hpp */,
+				4F1C194BAB0649FEBBD19B00 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/mcbekey.hpp */,
+				5CF91FFE786146FDB44E021C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/perenc.hpp */,
+				B3E1738139F6415EAA61695A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/slurp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		45A74BF968F74C11962B8B69 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4E0979ACBF274B8FB67273C3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5405E42710D143709B7C7EC3 /* mcberepair */ = {
+			isa = PBXGroup;
+			children = (
+				38F3216E0FEE4BBF9FC2D7A4 /* Source Files */,
+				40F8D63B94634BC78D18EFBC /* Header Files */,
+				29BBC6D4CDA340138F6B09EE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = mcberepair;
+			sourceTree = "<group>";
+		};
+		9B9D480B4F6B4BBDBF924764 /* check_all */ = {
+			isa = PBXGroup;
+			children = (
+				3804933778EB4D3AB1BDD935 /* CMake Rules */,
+				1271C3A3F53949F8A648ED38 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = check_all;
+			sourceTree = "<group>";
+		};
+		B443B89642D6446698CA600D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1C4AC49DF44D43B31CE4A0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.cc */,
+				2AD1DD49CD3847C09600618B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/c.cc */,
+				32F12791F5CE4371B200159A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.cc */,
+				64D19451827943B0B70CA2D1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.cc */,
+				4AD68662B5A948B2AF153291 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.cc */,
+				90C1C71749964BA9B80208E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dumpfile.cc */,
+				32BB05D7F0414E7BBAE9AEC2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.cc */,
+				6F92139FBDC94CD9805FC31C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.cc */,
+				122ADFD15A9A4A5093F67CBA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.cc */,
+				E452BCC2ED3B4ADFB87FFDF5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.cc */,
+				51283A96AE5C4BF7A8BF5C50 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/repair.cc */,
+				721C6987146B46518E104D0B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snappy_compressor.cc */,
+				E7624C8646CD448386B9CA4A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.cc */,
+				85A8EA8527A8419A87B9E67D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.cc */,
+				ED1EDB8317F4450F96F4BB5D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.cc */,
+				125C0B80CA1342C3B980BAEF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch.cc */,
+				D985370360614488A77CA18F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/zlib_compressor.cc */,
+				EA0BBE87737E4F87A083395A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.cc */,
+				5514AFA96C10477CBBD79481 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.cc */,
+				4D258B823D6C4F3C91C0DBEF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.cc */,
+				233A30604C164452A3882DB1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.cc */,
+				4B39521574DB4BA6BBB3E4E1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.cc */,
+				BD733B555B2D488588A5B238 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator.cc */,
+				7AD3FAEF8D0C4919B4C33D11 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.cc */,
+				48E3E923808F4484AC17C50F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table.cc */,
+				D6D75BF2E7DB44E5B687D18E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table_builder.cc */,
+				A02F20E2D8FF4C4EADF51548 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.cc */,
+				F8E6BC10D60D4B64B4561A87 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.cc */,
+				BABBBFBB4CA34121BD3A44F4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/bloom.cc */,
+				CAF1AA97056D484AB87351A3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/cache.cc */,
+				9B1EB7A0C67B44A0A051B86D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.cc */,
+				C724F2E1C805456F821DD8DC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/comparator.cc */,
+				F86AB8D7F1CE4B62B78672AD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.cc */,
+				880663B6D9F642C69A74EAD2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env.cc */,
+				5E36D9622B82480AAEE77884 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env_posix.cc */,
+				EDC958EBF05F4C2DB2A8B359 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/filter_policy.cc */,
+				07FCB14D1D1F4979984105F7 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.cc */,
+				CA78051B820A44C381A74D66 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.cc */,
+				1ACF4120A9B244F6B1D92B5A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/options.cc */,
+				7ED3E83E6AF74A22A0C4D7FF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/status.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D54ABD8F3F27421DA959D71B /* check_test */ = {
+			isa = PBXGroup;
+			children = (
+				45A74BF968F74C11962B8B69 /* CMake Rules */,
+				9B75B49771974B3DABF1D0F1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = check_test;
+			sourceTree = "<group>";
+		};
+		D60EAA1ECB7349488EF8A83D /* Configured Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Configured Files";
+			sourceTree = "<group>";
+		};
+		F2258FB494D04A569A9C5A58 = {
+			isa = PBXGroup;
+			children = (
+				164089F0198E417BB3963227 /* configure */,
+				5405E42710D143709B7C7EC3 /* mcberepair */,
+				9B9D480B4F6B4BBDBF924764 /* check_all */,
+				F7EE77C079554C71AE6601CF /* configure-version.h */,
+				240EA9F07E4E4013934FD79D /* pretest */,
+				D54ABD8F3F27421DA959D71B /* check_test */,
+				315D6C891ADB440D831FA782 /* configure-mcberepair.version */,
+				FCBAC2B4F65043128F2EB442 /* ALL_BUILD */,
+				FBF12E19EB8441389B68E2E4 /* leveldbutil */,
+				369169B7A3A64AC2AE274A31 /* leveldb */,
+				FC6FF2E7EDCB4AC5B4F2D69C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7EE77C079554C71AE6601CF /* configure-version.h */ = {
+			isa = PBXGroup;
+			children = (
+				30E1627641B14AF4A338B148 /* Configured Files */,
+				28CBAC9AF50F4E62A4AA3695 /* Header Files */,
+				4E0979ACBF274B8FB67273C3 /* CMake Rules */,
+				EB9BDCF2E6564908B0A9CD3E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = "configure-version.h";
+			sourceTree = "<group>";
+		};
+		FBF12E19EB8441389B68E2E4 /* leveldbutil */ = {
+			isa = PBXGroup;
+			children = (
+				1446727C4D6B4F0FB7791BF6 /* Source Files */,
+				DC04F0001A0B4FFBAB6878C1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/CMakeLists.txt */,
+			);
+			name = leveldbutil;
+			sourceTree = "<group>";
+		};
+		FC6FF2E7EDCB4AC5B4F2D69C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357B3D653FA84826B8130CED /* leveldb */,
+				12D5822CB3DF426FB8C1CC3D /* leveldbutil */,
+				1AA766BC516C4C009441505C /* mcberepair */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBAC2B4F65043128F2EB442 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2E62E1689762498C9A01BA5B /* CMake Rules */,
+				35D340782F3243C3837667AD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FCCDF37406E3432CA2D58716 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F62476172264F0B9398CE49 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.h */,
+				06F578C45E454B9FBAD5586D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.h */,
+				7492CBB2AB06421B8FE76446 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.h */,
+				FB6880FF874140BC8B8C7544 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.h */,
+				82F2F1C635934E5B93A8F019 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.h */,
+				25D3FD76A4A94BAF909D5551 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_format.h */,
+				00448547991F46BEBD8B9B5B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.h */,
+				6461F48C341549CCBD60F24E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.h */,
+				E12525BF4D3A44739F4E893D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.h */,
+				66CC2D68A07043CEA36EC934 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/skiplist.h */,
+				38B9B908F3674B37B852D489 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snapshot.h */,
+				459BDD52CC7F4A04811EFE5A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.h */,
+				4C7D74D044234F648448C717 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.h */,
+				5640CE020D7540F1BFAB125B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.h */,
+				4FB0AD95BBD94A9A882BE5E5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch_internal.h */,
+				8ABD1640F10247F3B7F0BAFF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.h */,
+				CC12FEF917AF4E47B0BC252C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/c.h */,
+				5929849DB8ED4F3CBF478D78 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/cache.h */,
+				E6AE54EFDC2846089EFCB321 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/comparator.h */,
+				9644FC09D2F64C96A4C76CE9 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/compressor.h */,
+				A3D56E6287054F51BAD17AAD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/db.h */,
+				91EAF2978E0B4AE58C3AD3C2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/decompress_allocator.h */,
+				8CBD523F716844ED84856913 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/dumpfile.h */,
+				BDCC47F97F964281AE47FAC8 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/env.h */,
+				5CCA959CF6D14707A9342033 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/export.h */,
+				5C13942BFC084090BF67A748 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/filter_policy.h */,
+				B6DFF1CF24F04C6093605BD0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/iterator.h */,
+				67D9A472CE8C4DD3B5DE4E19 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/options.h */,
+				B92A6F70176A4DC580D0C02F /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/slice.h */,
+				7D7588D0F624493E8C151391 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/snappy_compressor.h */,
+				F7D46A4288104EA98104D0DA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/status.h */,
+				EF9FA3A764974FF3BE15E218 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table.h */,
+				3B895BA9E8B84D7893D75D2D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/table_builder.h */,
+				24A49B34DCEF4096A5BEB767 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/write_batch.h */,
+				6594188698CB41E793FB135C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include/leveldb/zlib_compressor.h */,
+				C09CFB75EB9E47EFA8527BCA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port.h */,
+				7A4E5023D42545A0B958F6CA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/port_stdcxx.h */,
+				CE991418D53D42DAB873E2B0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/port/thread_annotations.h */,
+				A4F624C1F3A540B2B0F0B978 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.h */,
+				D96D2D7845674159960E2CF4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.h */,
+				C9D221D98D0D419895D292B0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.h */,
+				B4CC0E4E10B44EB6A2FD1482 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.h */,
+				514E210FF6964697BED1816D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator_wrapper.h */,
+				A75E57607D784880A79CB6B2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.h */,
+				D127639CE98A4DFCB5D12B66 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.h */,
+				ECADDE1759C042E785A0DFCB /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.h */,
+				17D2DDD42AAE44509E07AE78 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.h */,
+				75E2ED38B5EC4E49BA534CB0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.h */,
+				B91A94E968124728B704979B /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.h */,
+				39621F3FEB954DBA9ED1C83D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.h */,
+				7E68B11F2E804ACDA692EC3C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/mutexlock.h */,
+				4D67A57DA77E41FE81DAF426 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/no_destructor.h */,
+				A6F693E16C9C452F97ADC390 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/posix_logger.h */,
+				B1176727A04641539C0BFCC1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/random.h */,
+				5A2D2E905A714175B9628B4E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include/port/port_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D9D6C22B3040EDBBBC8793 /* mcberepair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0D495A914041618C8A96E9 /* Build configuration list for PBXNativeTarget "mcberepair" */;
+			buildPhases = (
+				0A40163256BD4841B45059FC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25328906F44745E18AC0E502 /* PBXTargetDependency */,
+				741EE1B1B6474B3C8AAC265B /* PBXTargetDependency */,
+				29F9E83B2A224DAEB6A7EDF4 /* PBXTargetDependency */,
+			);
+			name = mcberepair;
+			productName = mcberepair;
+			productReference = 1AA766BC516C4C009441505C /* mcberepair */;
+			productType = "com.apple.product-type.tool";
+		};
+		9411113004A04EB3AA9E5E16 /* leveldb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1789C0D5D5934309867CDF88 /* Build configuration list for PBXNativeTarget "leveldb" */;
+			buildPhases = (
+				80F1BAC3623742968B3934F7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leveldb;
+			productName = leveldb;
+			productReference = 357B3D653FA84826B8130CED /* leveldb */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA15B528F697478BB8F75A86 /* leveldbutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F98898F81342D8BFB4A226 /* Build configuration list for PBXNativeTarget "leveldbutil" */;
+			buildPhases = (
+				98DF50548C1C4554ABE559AC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1E9B91288C47A59E42DA4E /* PBXTargetDependency */,
+			);
+			name = leveldbutil;
+			productName = leveldbutil;
+			productReference = 12D5822CB3DF426FB8C1CC3D /* leveldbutil */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E659E332C726419189AB5F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = 7688825EF3DA4D86A7A09A20 /* Build configuration list for PBXProject "mcberepair" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FC41566FD9D44F05A203D350 /* Debug */,
+				9FFBD30A8255491F8518BAC8 /* Release */,
+				18EC5B28BC0C44989EA7B7B3 /* MinSizeRel */,
+				E81F1A3D9D7349889F7DE558 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F2258FB494D04A569A9C5A58;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				936CC30B14AF42B6B028C6AA /* ALL_BUILD */,
+				7EDF968DE12D4066A9E6E6F8 /* RUN_TESTS */,
+				7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */,
+				4F45E14D8A9C46EFBF802313 /* check_all */,
+				CAF1503550CD453F9E25E6D3 /* check_test */,
+				7CC95DE3A76C42BE96B624F0 /* configure */,
+				AA0C3065CF8F4920BDF1A9E8 /* configure-mcberepair.version */,
+				66EBDB0965204085AE8D4F1F /* configure-version.h */,
+				9CA702D47E6342FD963CFEC6 /* install */,
+				9411113004A04EB3AA9E5E16 /* leveldb */,
+				AA15B528F697478BB8F75A86 /* leveldbutil */,
+				71D9D6C22B3040EDBBBC8793 /* mcberepair */,
+				62EC4EF264D14E418C6CD052 /* package */,
+				A1852281BB3341B5B8E90A7B /* pretest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120863AA9AE44D849E54163E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		421800A1B47F4BC2845C6C79 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		44659282C3BB4AC7B86AA82D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		5596A011B7804EB0BFB554F4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5F8CB39AA44042708AEB7B85 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		99166D4F9D5E452683E4C54D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/configure-mcberepair.version_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AAA59848D17D485E8FE5AEAF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BDF642BD00D743DEA2F80147 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C35E2FC1D3B0448388E1DBF9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D2AAE0BB12B2456A925FD022 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D5DC144A9F554FEBB85920E0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D645956C0EB647758FAC5710 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E16C4BA4C87547059F07A608 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EA0A7A05E7D7490EAFA90E0B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/check_test_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EC17496BC20249E9AC298FCD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F93FFEDB6F66423799EDE47F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/configure-version.h_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FAE845781FEF4FC2ABC904A8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FC68C8878302427BA015C6D4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FDA8CDC61C104B81AE695B21 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode -f /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/CMakeScripts/check_all_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FEB65134165F45688D1E7ACE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A40163256BD4841B45059FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159B31DA41B240A2A8EA8EC5 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/copyall.cpp */,
+				B1BF8625459542DE8C5F02D0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/dumpkey.cpp */,
+				7886517ADC20439CA192053E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/listkeys.cpp */,
+				E649EC3ED02F41D3922ECD77 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/main.cpp */,
+				0F9F7ADCBA9240BB83976737 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/repair.cpp */,
+				EECB8E11F61C4748B488E3DB /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/rmkeys.cpp */,
+				430865F62F7A4C6F9785CE0D /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/writekey.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F1BAC3623742968B3934F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A5CEC435E476596EC3AFE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/builder.cc */,
+				355361806A014100A74BE268 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/c.cc */,
+				6C784182D23D44CAB320C9B8 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_impl.cc */,
+				A79468D1CA6A4C39A9F48EE0 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/db_iter.cc */,
+				9EB7E665EB8B4800B0C48ADD /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dbformat.cc */,
+				E7088675A5F545E88C146EAC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/dumpfile.cc */,
+				367098B7C2AA4020A11A1B32 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/filename.cc */,
+				D6B1F2A1B7F0435C9C67F516 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_reader.cc */,
+				8EA49B62AFE445ECB881710A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/log_writer.cc */,
+				77AD8D7F107648D0A6FF61C7 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/memtable.cc */,
+				98224D92D6174C819AB4E4D3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/repair.cc */,
+				EF8BC46BFCD34324930840BC /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/snappy_compressor.cc */,
+				9152196BED0B4E71B16A2017 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/table_cache.cc */,
+				8D1DA15F1A0D4BB4AADECD95 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_edit.cc */,
+				CF28A1B6664448B4A08CFE4C /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/version_set.cc */,
+				063CDF3F45184A5EBF8E25C3 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/write_batch.cc */,
+				89D1C32A1BF24FC4B8167245 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/zlib_compressor.cc */,
+				2B8D74CD77D0411BA52AD049 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/helpers/memenv/memenv.cc */,
+				A6DED81D10E34D6496EAB5AF /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block.cc */,
+				5A4B95CB42DC4E4F8EC2673E /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/block_builder.cc */,
+				17C197E2327F403AB0E98B97 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/filter_block.cc */,
+				F75DE8A7FC0845ABA0C4B34A /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/format.cc */,
+				9033093041AC4F9ABE443C50 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/iterator.cc */,
+				0761FF31179C41B7ABE630AA /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/merger.cc */,
+				0CB1FEEAEB2C4669ACD6B7A6 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table.cc */,
+				78625D21C7FB4718901C16C1 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/table_builder.cc */,
+				95A78A5E4BF741629111C911 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/table/two_level_iterator.cc */,
+				429891A1981244899651F688 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/arena.cc */,
+				E8ECE961E54C4A1088F199E2 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/bloom.cc */,
+				32807F22CB394AD3870459A4 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/cache.cc */,
+				CA7C603DA10A473796492A06 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/coding.cc */,
+				500D02C256A647688C698014 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/comparator.cc */,
+				C5A7F20DC4E34EB2A24BF250 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/crc32c.cc */,
+				DE3912206A474E9085F58746 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env.cc */,
+				CCBE8E4607874400B4CD2497 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/env_posix.cc */,
+				193005B669C243409B686386 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/filter_policy.cc */,
+				8158872E1AEC43BE8ECE2308 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/hash.cc */,
+				3650413CC396434E8E3D8580 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/logging.cc */,
+				856D7EC2BB254F5787FC31AE /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/options.cc */,
+				BE8C4CB78BCD46838902FC74 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/util/status.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF50548C1C4554ABE559AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA388AFD13E4C4CA45C3371 /* /Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db/leveldbutil.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F5180C209DB4D52ADE9C037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = BCD9A7B0DF7E4EB3906DB17B /* PBXContainerItemProxy */;
+		};
+		25328906F44745E18AC0E502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9411113004A04EB3AA9E5E16 /* leveldb */;
+			targetProxy = 7281B84EFAE8447AA8C879C9 /* PBXContainerItemProxy */;
+		};
+		29F9E83B2A224DAEB6A7EDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = 255E2AAFCC3940BF826C82C1 /* PBXContainerItemProxy */;
+		};
+		37D504C1A0894967B619D580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0C3065CF8F4920BDF1A9E8 /* configure-mcberepair.version */;
+			targetProxy = 66CC220F95A34ACC9B89F447 /* PBXContainerItemProxy */;
+		};
+		3FDBEA8BD9EA43B2A4D872AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9411113004A04EB3AA9E5E16 /* leveldb */;
+			targetProxy = 61DE323FB66E44F0B5505A14 /* PBXContainerItemProxy */;
+		};
+		43D2AF86D3944E6789D5BCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC95DE3A76C42BE96B624F0 /* configure */;
+			targetProxy = 3A029A6E32714F84952DE7A0 /* PBXContainerItemProxy */;
+		};
+		4811F002C3F54777B8F39F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0C3065CF8F4920BDF1A9E8 /* configure-mcberepair.version */;
+			targetProxy = D45811925A1B4EB6B0F1A64D /* PBXContainerItemProxy */;
+		};
+		58D9CD9B23D44710A26E99EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 936CC30B14AF42B6B028C6AA /* ALL_BUILD */;
+			targetProxy = 12375BDBA12F44CBA6A2CF48 /* PBXContainerItemProxy */;
+		};
+		73AA48C710E84CA49712D06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 936CC30B14AF42B6B028C6AA /* ALL_BUILD */;
+			targetProxy = 0DF515DA052A408F87219E3A /* PBXContainerItemProxy */;
+		};
+		741EE1B1B6474B3C8AAC265B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66EBDB0965204085AE8D4F1F /* configure-version.h */;
+			targetProxy = C55A8B60076A472EACF1257D /* PBXContainerItemProxy */;
+		};
+		75D3CD6BEB9C4F3C97A742CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC95DE3A76C42BE96B624F0 /* configure */;
+			targetProxy = 6AAA4EDAD57742098E89858C /* PBXContainerItemProxy */;
+		};
+		7755985D9CAD4B38B7BF3171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71D9D6C22B3040EDBBBC8793 /* mcberepair */;
+			targetProxy = D4AFF24D72F142B59D372BCE /* PBXContainerItemProxy */;
+		};
+		821D4EE69FC64D3384934E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = 1F1651CA36C04197B07A96C0 /* PBXContainerItemProxy */;
+		};
+		842DD3D3A606487DACD2700F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = C1EB15D28A1E493C97658FD9 /* PBXContainerItemProxy */;
+		};
+		8662AA92F54F468D80782C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = DD4C21B72C0C4FEE86793B21 /* PBXContainerItemProxy */;
+		};
+		88F5C8D6766244D8983DD81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1852281BB3341B5B8E90A7B /* pretest */;
+			targetProxy = 71E3E9F1A23B41F5B8DC9A57 /* PBXContainerItemProxy */;
+		};
+		9D186B7251034121A526DE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = BAAE90BB7AF943B0A7786FEA /* PBXContainerItemProxy */;
+		};
+		A2C0D78F2D05424E99E8B138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = D88C84F9955D4AAD9E3D1FC7 /* PBXContainerItemProxy */;
+		};
+		BD5834AF0A0844F399FB4C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF1503550CD453F9E25E6D3 /* check_test */;
+			targetProxy = 302F5E20D4D44F28885CC136 /* PBXContainerItemProxy */;
+		};
+		CD1E9B91288C47A59E42DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9411113004A04EB3AA9E5E16 /* leveldb */;
+			targetProxy = FAA7CF882B504277B40EF90D /* PBXContainerItemProxy */;
+		};
+		D33964D114A741AC95A9824B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1852281BB3341B5B8E90A7B /* pretest */;
+			targetProxy = 579B54EC392E459480323BA1 /* PBXContainerItemProxy */;
+		};
+		E0E41383AB6244D5B16F7D76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66EBDB0965204085AE8D4F1F /* configure-version.h */;
+			targetProxy = 33AE87C3489240E9B4CD675F /* PBXContainerItemProxy */;
+		};
+		F37664D5C835464297DEDA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA15B528F697478BB8F75A86 /* leveldbutil */;
+			targetProxy = 4264D2D84C204A12939F6346 /* PBXContainerItemProxy */;
+		};
+		F7A5CA76B042482AB47616B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AC7CDBDC11546E98AAF8094 /* ZERO_CHECK */;
+			targetProxy = FE2DD892A85D46CDBD5EFCDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0324C88185A84EADADE90E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pretest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		04B63A15A06E42F6BD7D5F36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		04E09ABC5F1A4D39A531E3E8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pretest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0A81BD9D1D754DCB98B0AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LEVELDB_COMPILE_LIBRARY,"'LEVELDB_PLATFORM_POSIX=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti    -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0A9ACA6C937C4B9B8DBB72A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		141FE378D97F4ABC89C6D28C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LEVELDB_COMPILE_LIBRARY,"'LEVELDB_PLATFORM_POSIX=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti     -DNDEBUG -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		176381F6156745048A4B1455 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LEVELDB_COMPILE_LIBRARY,"'LEVELDB_PLATFORM_POSIX=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti        -DNDEBUG -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		18ACC2E8B95F4DC8A8653755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-mcberepair.version";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		228D7B97156147DB96C675E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		27FC2351B14F49199EBB7A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2CCFA47B8BE045C5B2CB1F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-version.h";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2F0AD44D3EEC418480B667F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_all;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3038E0649A5843D6847D254D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3AC834EADFC349E983FD4BB8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pretest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3C44880E29FE411BA3EE0476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4355D2B3583E435AAA96A988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4EEAA57B316D4CE18FDCAA98 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4FEB9B33BA5543B6B8E59866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode,"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-rtti    -Wall -Wextra -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Debug/libleveldb.a   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mcberepair;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		529972CE1F8548D1834E059D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/build;
+			};
+			name = Release;
+		};
+		534C153066504CAF8EC38137 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode,"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-rtti     -DNDEBUG -Wall -Wextra -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mcberepair;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5425AA1FA7574859BFCFB1C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		578C7AB9659A43F78734FF23 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5947CA9C01EB4887BFA84D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5AC0542240B545208B8B826C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B02F5AF64814E16AE3AAE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_all;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		61090D0DA97946EEAF642F5D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-version.h";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6DF19E37FC5D46F28CBEB049 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-mcberepair.version";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E0722E6B6FF406F8B6AC445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6F2A0D15AE704CE39ECB32AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-mcberepair.version";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		75DD8978A1C24610AB67860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = configure;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		761813B389E64AB8A8C55F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8A6E949FFFBE4D16B01CEEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti    -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Debug/libleveldb.a  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldbutil;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8FC9ADE1504641678F1C2AF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode,"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-rtti        -DNDEBUG -Wall -Wextra -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mcberepair;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9097588056194F6B9B447AA4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = configure;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		90DA68BED5794361AAAA5956 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-version.h";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		968B486DFCAF4BB18872B7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_all;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		96D54927919F45038938F4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-mcberepair.version";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9769ABD8E64E46A98686CF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = configure;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9854F9E4A0BD4A10B831480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		986D1E1336ED42DC81EF46BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti        -DNDEBUG -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldbutil;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E205909C22E4E08BBE4C36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9FC90E816D8A4144A32CDEC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = configure;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A158DAC618BD46018B257EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "configure-version.h";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A47DF4CC57A2488F8DDB94F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AAF954587F7F403690FEAF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti     -DNDEBUG -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Release/libleveldb.a  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldbutil;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ADE248D2A32846BC812CD068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AF097F6300194EFBACBEAD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pretest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BA7211DF76FD433284A85B34 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_all;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C273C656C5A14A42B19EB9C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		C6745539754C4319894D1B69 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C82FF8E867C346C28CA93231 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CFD8FFEA37614D0F9B4D234C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode,"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-rtti     -DNDEBUG -Wall -Wextra -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Release/libleveldb.a   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mcberepair;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D26A424A69AD445CA3F6F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/build;
+			};
+			name = Debug;
+		};
+		D773EFF3502C497DBDD8E9B2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E8E4E8E5B5D24579BC62B8BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti     -DNDEBUG -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldbutil;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EB1D499F0572455AAE7283EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LEVELDB_COMPILE_LIBRARY,"'LEVELDB_PLATFORM_POSIX=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.","/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-exceptions -fno-rtti     -DNDEBUG -Werror -Wthread-safety '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F12F4A3882DA48F98FDAAF5E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FD415B7A34AE4F8A924B5CEC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FD9C83A1F87B4DC6B31F9CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FE5B6DCDE01E42F8BC6D2190 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F7AE7970A14875A3633F9B /* Build configuration list for PBXAggregateTarget "check_all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B02F5AF64814E16AE3AAE00 /* Debug */,
+				968B486DFCAF4BB18872B7BD /* Release */,
+				2F0AD44D3EEC418480B667F9 /* MinSizeRel */,
+				BA7211DF76FD433284A85B34 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1789C0D5D5934309867CDF88 /* Build configuration list for PBXNativeTarget "leveldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A81BD9D1D754DCB98B0AAF0 /* Debug */,
+				EB1D499F0572455AAE7283EE /* Release */,
+				141FE378D97F4ABC89C6D28C /* MinSizeRel */,
+				176381F6156745048A4B1455 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		207677A0BAD44BABAAD2899C /* Build configuration list for PBXAggregateTarget "configure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9769ABD8E64E46A98686CF19 /* Debug */,
+				75DD8978A1C24610AB67860A /* Release */,
+				9097588056194F6B9B447AA4 /* MinSizeRel */,
+				9FC90E816D8A4144A32CDEC4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28BCD6E9955246EB8FDE6006 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0722E6B6FF406F8B6AC445 /* Debug */,
+				9E205909C22E4E08BBE4C36D /* Release */,
+				C6745539754C4319894D1B69 /* MinSizeRel */,
+				FD415B7A34AE4F8A924B5CEC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C0D495A914041618C8A96E9 /* Build configuration list for PBXNativeTarget "mcberepair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEB9B33BA5543B6B8E59866 /* Debug */,
+				CFD8FFEA37614D0F9B4D234C /* Release */,
+				534C153066504CAF8EC38137 /* MinSizeRel */,
+				8FC9ADE1504641678F1C2AF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43F98898F81342D8BFB4A226 /* Build configuration list for PBXNativeTarget "leveldbutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6E949FFFBE4D16B01CEEA4 /* Debug */,
+				AAF954587F7F403690FEAF72 /* Release */,
+				E8E4E8E5B5D24579BC62B8BE /* MinSizeRel */,
+				986D1E1336ED42DC81EF46BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54E339108C764ED3B61BF17B /* Build configuration list for PBXAggregateTarget "pretest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324C88185A84EADADE90E5E /* Debug */,
+				AF097F6300194EFBACBEAD86 /* Release */,
+				04E09ABC5F1A4D39A531E3E8 /* MinSizeRel */,
+				3AC834EADFC349E983FD4BB8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6596BFF26EB2488684827510 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4355D2B3583E435AAA96A988 /* Debug */,
+				A47DF4CC57A2488F8DDB94F4 /* Release */,
+				04B63A15A06E42F6BD7D5F36 /* MinSizeRel */,
+				3038E0649A5843D6847D254D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71CAE36084F84BB89FE98922 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9854F9E4A0BD4A10B831480F /* Debug */,
+				5947CA9C01EB4887BFA84D24 /* Release */,
+				4EEAA57B316D4CE18FDCAA98 /* MinSizeRel */,
+				C82FF8E867C346C28CA93231 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7688825EF3DA4D86A7A09A20 /* Build configuration list for PBXProject "mcberepair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26A424A69AD445CA3F6F07E /* Debug */,
+				529972CE1F8548D1834E059D /* Release */,
+				C273C656C5A14A42B19EB9C6 /* MinSizeRel */,
+				228D7B97156147DB96C675E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE25C43E06B449CBA37B5858 /* Build configuration list for PBXAggregateTarget "configure-version.h" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCFA47B8BE045C5B2CB1F8D /* Debug */,
+				A158DAC618BD46018B257EA1 /* Release */,
+				61090D0DA97946EEAF642F5D /* MinSizeRel */,
+				90DA68BED5794361AAAA5956 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D47BB80D2D0F422DA3104F61 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9C83A1F87B4DC6B31F9CB5 /* Debug */,
+				3C44880E29FE411BA3EE0476 /* Release */,
+				D773EFF3502C497DBDD8E9B2 /* MinSizeRel */,
+				5425AA1FA7574859BFCFB1C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6D75FA955524CAEAB606AFE /* Build configuration list for PBXAggregateTarget "check_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC0542240B545208B8B826C /* Debug */,
+				761813B389E64AB8A8C55F44 /* Release */,
+				FE5B6DCDE01E42F8BC6D2190 /* MinSizeRel */,
+				578C7AB9659A43F78734FF23 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5946F153B904D70B6FD3101 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE248D2A32846BC812CD068 /* Debug */,
+				27FC2351B14F49199EBB7A53 /* Release */,
+				0A9ACA6C937C4B9B8DBB72A1 /* MinSizeRel */,
+				F12F4A3882DA48F98FDAAF5E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F79029248D2E4F9BA3498CCF /* Build configuration list for PBXAggregateTarget "configure-mcberepair.version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ACC2E8B95F4DC8A8653755 /* Debug */,
+				96D54927919F45038938F4D8 /* Release */,
+				6DF19E37FC5D46F28CBEB049 /* MinSizeRel */,
+				6F2A0D15AE704CE39ECB32AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E659E332C726419189AB5F5A /* Project object */;
+}

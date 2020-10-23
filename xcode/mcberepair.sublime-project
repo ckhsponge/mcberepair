@@ -1,0 +1,63 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Volumes/Half/Users/ckh/dev/bedrockblocks2",
+			"folder_exclude_patterns": ["build"]
+		}
+	],
+	"settings": {
+    	"tab_size": 4,
+    	"translate_tabs_to_spaces": true,
+        "compile_commands": "${project_path}",
+        "ecc_flags_sources": [
+            {"file": "compile_commands.json", "search_in": "${project_path}"},
+            {"file": "CMakeLists.txt"}
+        ],
+        "ecc_header_to_source_mapping": [
+            "./", "../", "../../", "../src/", "../lib/", "../../lib/"
+        ]
+	},
+    "SublimeLinter": {
+        "linters":
+        {
+        	"clang": {
+				"extra_flags": "-Wall -std=c++17 -Wno-pragma-once-outside-header",
+            	"include_dirs": [
+                	"${project_path}/../../src/include/",
+                	"${project_path}/src",
+                	"/usr/include/eigen3",
+                	"/usr/include/eigen3/unsupported"
+            	],
+                "disable": true
+            }
+        }
+    },
+	"build_systems":
+	[
+		{
+			"name": "mcberepair - all",
+			"cmd": ["/usr/local/Cellar/cmake/3.18.4/bin/cmake", "--build", "${project_path}", "--target", "all"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "mcberepair - test",
+			"cmd": ["/usr/local/Cellar/cmake/3.18.4/bin/cmake", "--build", "${project_path}", "--target", "test"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+        {
+            "name": "mcberepair - clean",
+            "cmd": ["/usr/local/Cellar/cmake/3.18.4/bin/cmake", "--build", "${project_path}", "--target", "clean"],
+            "working_dir": "${project_path}",
+            "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+        },
+        {
+            "name": "mcberepair - check_all",
+            "cmd": ["/usr/local/Cellar/cmake/3.18.4/bin/cmake", "--build", "${project_path}", "--target", "check_all"],
+            "working_dir": "${project_path}",
+            "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+        },
+    ]
+}

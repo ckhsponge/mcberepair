@@ -57,3 +57,7 @@ _deps
 .idea/
 cmake-build-debug/
 worlds/
+
+xcode/leveldb-mcpe/mcberepair.build
+xcode/mcberepair.build
+xcode/mcberepair.xcodeproj/xcuserdata
