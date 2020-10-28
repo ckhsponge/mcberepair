@@ -61,3 +61,5 @@ worlds/
 xcode/leveldb-mcpe/mcberepair.build
 xcode/mcberepair.build
 xcode/mcberepair.xcodeproj/xcuserdata
+xcode/build
+
