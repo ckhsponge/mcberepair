@@ -1,5 +1,5 @@
-set(GITMETA_HASH "cc27beb1138d67e7fb3b52381454cafa67d4e112")
-set(GITMETA_HASH_SHORT "cc27beb")
+set(GITMETA_HASH "fb3b5c29921de52bf5fba1a1bca8a89a6682be49")
+set(GITMETA_HASH_SHORT "fb3b5c2")
 set(GITMETA_DIRTY "1")
 set(GITMETA_DIRTY_STR "dirty")
-set(GITMETA_METADATA "gcc27beb-dirty")
+set(GITMETA_METADATA "gfb3b5c2-dirty")
