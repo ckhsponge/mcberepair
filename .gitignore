@@ -63,3 +63,6 @@ xcode/mcberepair.build
 xcode/mcberepair.xcodeproj/xcuserdata
 xcode/build
 
+*xcworkspace/xcuserdata/*
+xcode/mcberepair.xcodeproj/project.xcworkspace/xcuserdata/
+
