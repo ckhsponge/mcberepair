@@ -17,5 +17,8 @@ FOUNDATION_EXPORT const unsigned char BedrockBlocksVersionString[];
 
 
 #import <BedrockBlocks/listit.hpp>
+#import "Filer.h"
+//#import "KeyIterator.h"
+#import "KeyLoop.h"
 
 //#import "BedrockBlocks/listit.hpp"

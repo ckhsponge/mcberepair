@@ -165,6 +165,11 @@
 		430865F62F7A4C6F9785CE0D /* writekey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9982D2E89A54897B5F53D84 /* writekey.cpp */; };
 		500D02C256A647688C698014 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = C724F2E1C805456F821DD8DC /* comparator.cc */; };
 		5A4B95CB42DC4E4F8EC2673E /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4D258B823D6C4F3C91C0DBEF /* block_builder.cc */; };
+		5F3E1A59254BC9F40061A49E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E1A58254BC9F40061A49E /* README.md */; };
+		5F3E1A5A254BC9F40061A49E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E1A58254BC9F40061A49E /* README.md */; };
+		5F3E1A5C254BCDE90061A49E /* Filer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E1A5B254BCDE90061A49E /* Filer.m */; };
+		5F3E1A5D254BCDE90061A49E /* Filer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E1A5B254BCDE90061A49E /* Filer.m */; };
+		5F3E1A5F254BCED20061A49E /* Filer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3E1A5E254BCED20061A49E /* Filer.h */; };
 		5FA109E325491DC700A049E5 /* BedrockBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA109DA25491DC700A049E5 /* BedrockBlocks.framework */; };
 		5FA109E825491DC700A049E5 /* BedrockBlocksTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FA109E725491DC700A049E5 /* BedrockBlocksTests.mm */; };
 		5FA109EA25491DC700A049E5 /* BedrockBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA109DC25491DC700A049E5 /* BedrockBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -176,6 +181,22 @@
 		5FA109FF2549220B00A049E5 /* listit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA109FB2549220B00A049E5 /* listit.cpp */; };
 		5FA10A002549220B00A049E5 /* listit.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5FA109FC2549220B00A049E5 /* listit.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FA10A0925492AE500A049E5 /* listkeys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8554BBF21B2C4A53820204D1 /* listkeys.cpp */; };
+		5FA10A13254BC74700A049E5 /* worlds in Resources */ = {isa = PBXBuildFile; fileRef = 5FA10A12254BC74700A049E5 /* worlds */; };
+		5FA10A14254BC74700A049E5 /* worlds in Resources */ = {isa = PBXBuildFile; fileRef = 5FA10A12254BC74700A049E5 /* worlds */; };
+		5FD3E7462555083F00557789 /* db.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 38A03340C45C4B6BA1AC7391 /* db.hpp */; };
+		5FD3E74C255513C400557789 /* KeyIterator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E74A255513C400557789 /* KeyIterator.mm */; };
+		5FD3E74D255513C400557789 /* KeyIterator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E74A255513C400557789 /* KeyIterator.mm */; };
+		5FD3E7502555191800557789 /* ChunkIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD3E74F2555191800557789 /* ChunkIndex.h */; };
+		5FD3E7512555200D00557789 /* KeyIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD3E74E255513DA00557789 /* KeyIterator.h */; };
+		5FD3E7542555203900557789 /* KeyIteratorWrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E7522555203900557789 /* KeyIteratorWrap.cpp */; };
+		5FD3E7552555204C00557789 /* KeyIteratorWrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E7522555203900557789 /* KeyIteratorWrap.cpp */; };
+		5FD3E7572555206800557789 /* KeyIteratorWrap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5FD3E7562555206800557789 /* KeyIteratorWrap.hpp */; };
+		5FD3E7592559095700557789 /* KeyLoop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E7582559095700557789 /* KeyLoop.mm */; };
+		5FD3E75A2559095700557789 /* KeyLoop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E7582559095700557789 /* KeyLoop.mm */; };
+		5FD3E75C25590D9500557789 /* KeyLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD3E75B25590D9500557789 /* KeyLoop.h */; };
+		5FD3E75F2559131000557789 /* KeyLoopWrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E75D2559131000557789 /* KeyLoopWrap.cpp */; };
+		5FD3E760255914FB00557789 /* KeyLoopWrap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5FD3E75E2559131000557789 /* KeyLoopWrap.hpp */; };
+		5FD3E7612559150A00557789 /* KeyLoopWrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3E75D2559131000557789 /* KeyLoopWrap.cpp */; };
 		6C784182D23D44CAB320C9B8 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 32F12791F5CE4371B200159A /* db_impl.cc */; };
 		77AD8D7F107648D0A6FF61C7 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = E452BCC2ED3B4ADFB87FFDF5 /* memtable.cc */; };
 		78625D21C7FB4718901C16C1 /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = D6D75BF2E7DB44E5B687D18E /* table_builder.cc */; };
@@ -455,6 +476,9 @@
 		5CCA959CF6D14707A9342033 /* export.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = export.h; path = "leveldb-mcpe/include/leveldb/export.h"; sourceTree = SOURCE_ROOT; };
 		5CF91FFE786146FDB44E021C /* perenc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = perenc.hpp; sourceTree = SOURCE_ROOT; };
 		5E36D9622B82480AAEE77884 /* env_posix.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = env_posix.cc; path = "leveldb-mcpe/util/env_posix.cc"; sourceTree = SOURCE_ROOT; };
+		5F3E1A58254BC9F40061A49E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F3E1A5B254BCDE90061A49E /* Filer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Filer.m; sourceTree = "<group>"; };
+		5F3E1A5E254BCED20061A49E /* Filer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Filer.h; sourceTree = "<group>"; };
 		5FA109DA25491DC700A049E5 /* BedrockBlocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BedrockBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA109DC25491DC700A049E5 /* BedrockBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BedrockBlocks.h; sourceTree = "<group>"; };
 		5FA109DD25491DC700A049E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -463,6 +487,19 @@
 		5FA109E925491DC700A049E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FA109FB2549220B00A049E5 /* listit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = listit.cpp; sourceTree = "<group>"; };
 		5FA109FC2549220B00A049E5 /* listit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = listit.hpp; sourceTree = "<group>"; };
+		5FA10A12254BC74700A049E5 /* worlds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = worlds; sourceTree = "<group>"; };
+		5FD3E7472555092E00557789 /* db.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = db.hpp; sourceTree = "<group>"; };
+		5FD3E7482555094700557789 /* mcbekey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mcbekey.hpp; sourceTree = "<group>"; };
+		5FD3E7492555096600557789 /* perenc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = perenc.hpp; sourceTree = "<group>"; };
+		5FD3E74A255513C400557789 /* KeyIterator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyIterator.mm; sourceTree = "<group>"; };
+		5FD3E74E255513DA00557789 /* KeyIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyIterator.h; sourceTree = "<group>"; };
+		5FD3E74F2555191800557789 /* ChunkIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChunkIndex.h; sourceTree = "<group>"; };
+		5FD3E7522555203900557789 /* KeyIteratorWrap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyIteratorWrap.cpp; sourceTree = "<group>"; };
+		5FD3E7562555206800557789 /* KeyIteratorWrap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeyIteratorWrap.hpp; sourceTree = "<group>"; };
+		5FD3E7582559095700557789 /* KeyLoop.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyLoop.mm; sourceTree = "<group>"; };
+		5FD3E75B25590D9500557789 /* KeyLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyLoop.h; sourceTree = "<group>"; };
+		5FD3E75D2559131000557789 /* KeyLoopWrap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeyLoopWrap.cpp; sourceTree = "<group>"; };
+		5FD3E75E2559131000557789 /* KeyLoopWrap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyLoopWrap.hpp; sourceTree = "<group>"; };
 		6461F48C341549CCBD60F24E /* log_writer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log_writer.h; path = "leveldb-mcpe/db/log_writer.h"; sourceTree = SOURCE_ROOT; };
 		64D19451827943B0B70CA2D1 /* db_iter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = db_iter.cc; path = "leveldb-mcpe/db/db_iter.cc"; sourceTree = SOURCE_ROOT; };
 		65631EF42E8E49A3A764C088 /* copyall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = copyall.cpp; sourceTree = SOURCE_ROOT; };
@@ -643,6 +680,7 @@
 		38F3216E0FEE4BBF9FC2D7A4 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FD3E7522555203900557789 /* KeyIteratorWrap.cpp */,
 				65631EF42E8E49A3A764C088 /* copyall.cpp */,
 				7D33566A8F274C8AB598B847 /* dumpkey.cpp */,
 				8554BBF21B2C4A53820204D1 /* listkeys.cpp */,
@@ -650,6 +688,7 @@
 				C519D42C5A864EAB9B3690A2 /* repair.cpp */,
 				BAA02AC212D94F878DC83915 /* rmkeys.cpp */,
 				C9982D2E89A54897B5F53D84 /* writekey.cpp */,
+				5FD3E75D2559131000557789 /* KeyLoopWrap.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -657,6 +696,8 @@
 		40F8D63B94634BC78D18EFBC /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				5FD3E7562555206800557789 /* KeyIteratorWrap.hpp */,
+				5FD3E75E2559131000557789 /* KeyLoopWrap.hpp */,
 				38A03340C45C4B6BA1AC7391 /* db.hpp */,
 				4F1C194BAB0649FEBBD19B00 /* mcbekey.hpp */,
 				5CF91FFE786146FDB44E021C /* perenc.hpp */,
@@ -692,10 +733,20 @@
 		5FA109DB25491DC700A049E5 /* BedrockBlocks */ = {
 			isa = PBXGroup;
 			children = (
+				5FD3E7492555096600557789 /* perenc.hpp */,
+				5FD3E7482555094700557789 /* mcbekey.hpp */,
+				5FD3E7472555092E00557789 /* db.hpp */,
 				5FA109DC25491DC700A049E5 /* BedrockBlocks.h */,
 				5FA109DD25491DC700A049E5 /* Info.plist */,
 				5FA109FB2549220B00A049E5 /* listit.cpp */,
 				5FA109FC2549220B00A049E5 /* listit.hpp */,
+				5F3E1A5B254BCDE90061A49E /* Filer.m */,
+				5F3E1A5E254BCED20061A49E /* Filer.h */,
+				5FD3E74A255513C400557789 /* KeyIterator.mm */,
+				5FD3E74E255513DA00557789 /* KeyIterator.h */,
+				5FD3E74F2555191800557789 /* ChunkIndex.h */,
+				5FD3E7582559095700557789 /* KeyLoop.mm */,
+				5FD3E75B25590D9500557789 /* KeyLoop.h */,
 			);
 			name = BedrockBlocks;
 			path = xcode/BedrockBlocks;
@@ -786,6 +837,8 @@
 		F2258FB494D04A569A9C5A58 = {
 			isa = PBXGroup;
 			children = (
+				5F3E1A58254BC9F40061A49E /* README.md */,
+				5FA10A12254BC74700A049E5 /* worlds */,
 				164089F0198E417BB3963227 /* configure */,
 				5405E42710D143709B7C7EC3 /* mcberepair */,
 				9B9D480B4F6B4BBDBF924764 /* check_all */,
@@ -912,8 +965,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD3E7512555200D00557789 /* KeyIterator.h in Headers */,
+				5FD3E760255914FB00557789 /* KeyLoopWrap.hpp in Headers */,
+				5FD3E7502555191800557789 /* ChunkIndex.h in Headers */,
+				5FD3E7572555206800557789 /* KeyIteratorWrap.hpp in Headers */,
+				5F3E1A5F254BCED20061A49E /* Filer.h in Headers */,
 				5FA10A002549220B00A049E5 /* listit.hpp in Headers */,
+				5FD3E7462555083F00557789 /* db.hpp in Headers */,
 				5FA109EA25491DC700A049E5 /* BedrockBlocks.h in Headers */,
+				5FD3E75C25590D9500557789 /* KeyLoop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,7 +1122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3E1A59254BC9F40061A49E /* README.md in Resources */,
 				5FA109FA25491EFB00A049E5 /* Info.plist in Resources */,
+				5FA10A13254BC74700A049E5 /* worlds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1072,6 +1134,8 @@
 			files = (
 				5FA109F925491EFA00A049E5 /* Info.plist in Resources */,
 				5FA109F825491ED600A049E5 /* Info.plist in Resources */,
+				5F3E1A5A254BC9F40061A49E /* README.md in Resources */,
+				5FA10A14254BC74700A049E5 /* worlds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,6 +1249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				159B31DA41B240A2A8EA8EC5 /* copyall.cpp in Sources */,
+				5FD3E75F2559131000557789 /* KeyLoopWrap.cpp in Sources */,
+				5FD3E7552555204C00557789 /* KeyIteratorWrap.cpp in Sources */,
 				B1BF8625459542DE8C5F02D0 /* dumpkey.cpp in Sources */,
 				7886517ADC20439CA192053E /* listkeys.cpp in Sources */,
 				E649EC3ED02F41D3922ECD77 /* main.cpp in Sources */,
@@ -1198,8 +1264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3E1A5C254BCDE90061A49E /* Filer.m in Sources */,
+				5FD3E74C255513C400557789 /* KeyIterator.mm in Sources */,
+				5FD3E7542555203900557789 /* KeyIteratorWrap.cpp in Sources */,
 				5FA10A0925492AE500A049E5 /* listkeys.cpp in Sources */,
+				5FD3E7612559150A00557789 /* KeyLoopWrap.cpp in Sources */,
 				5FA109FE2549220B00A049E5 /* listit.cpp in Sources */,
+				5FD3E7592559095700557789 /* KeyLoop.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1207,8 +1278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3E1A5D254BCDE90061A49E /* Filer.m in Sources */,
+				5FD3E74D255513C400557789 /* KeyIterator.mm in Sources */,
 				5FA109FF2549220B00A049E5 /* listit.cpp in Sources */,
 				5FA109E825491DC700A049E5 /* BedrockBlocksTests.mm in Sources */,
+				5FD3E75A2559095700557789 /* KeyLoop.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2063,6 +2137,7 @@
 				HEADER_SEARCH_PATHS = (
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
+					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2155,6 +2230,7 @@
 				HEADER_SEARCH_PATHS = (
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
+					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2240,6 +2316,7 @@
 				HEADER_SEARCH_PATHS = (
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
+					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2325,6 +2402,7 @@
 				HEADER_SEARCH_PATHS = (
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
 					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
+					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

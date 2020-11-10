@@ -1,7 +1,7 @@
 #ifndef MCBEREPAIR_VERSION_H_FILE
 #define MCBEREPAIR_VERSION_H_FILE
 
-#define MCBEREPAIR_VERSION         "0.2.0-prerelease+g1771bd4-dirty"
+#define MCBEREPAIR_VERSION         "0.2.0-prerelease+ge523104-dirty"
 #define MCBEREPAIR_VERSION_INTEGER  20000
 #define MCBEREPAIR_VERSION_MAJOR    0
 #define MCBEREPAIR_VERSION_MINOR    2
