@@ -1502,7 +1502,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pretest;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1522,7 +1522,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1542,7 +1542,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pretest;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1566,9 +1566,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1584,7 +1584,7 @@
 				PRODUCT_NAME = leveldb;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				SYMROOT = "${SRCROOT}/xcode/leveldb-mcpe";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1628,9 +1628,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1647,7 +1647,7 @@
 				PRODUCT_NAME = leveldb;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				SYMROOT = "${SRCROOT}/xcode/leveldb-mcpe";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1671,9 +1671,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1690,7 +1690,7 @@
 				PRODUCT_NAME = leveldb;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				SYMROOT = "${SRCROOT}/xcode/leveldb-mcpe";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1800,7 +1800,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1820,7 +1820,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pretest;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1860,7 +1860,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1914,13 +1914,13 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Debug/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/Debug/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = mcberepair;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -1965,13 +1965,13 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = mcberepair;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -2135,9 +2135,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
-					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
+					"${SRCROOT}/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/db",
+					"${SRCROOT}",
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2163,13 +2163,14 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Debug-iphonesimulator/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/Debug-iphonesimulator/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/libz.tbd,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.toonsy.BedrockBlocks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SYMROOT = "${SRCROOT}/xcode/build";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2228,9 +2229,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
-					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
+					"${SRCROOT}/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/db",
+					"${SRCROOT}",
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2248,13 +2249,14 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Release/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/Release/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.toonsy.BedrockBlocks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SYMROOT = "${SRCROOT}/xcode/build";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2314,9 +2316,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
-					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
+					"${SRCROOT}/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/db",
+					"${SRCROOT}",
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2334,13 +2336,14 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.toonsy.BedrockBlocks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SYMROOT = "${SRCROOT}/xcode/build";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2400,9 +2403,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/db",
-					/Volumes/Half/Users/ckh/dev/bedrockblocks2/,
+					"${SRCROOT}/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/db",
+					"${SRCROOT}",
 				);
 				INFOPLIST_FILE = xcode/BedrockBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2420,13 +2423,14 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.toonsy.BedrockBlocks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SYMROOT = "${SRCROOT}/xcode/build";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2827,9 +2831,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
@@ -2843,7 +2847,7 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Debug/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/Debug/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
@@ -2884,13 +2888,13 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = mcberepair;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -3028,9 +3032,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
@@ -3045,7 +3049,7 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/RelWithDebInfo/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
@@ -3131,7 +3135,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -3149,9 +3153,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
@@ -3166,7 +3170,7 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Release/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/Release/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
@@ -3212,7 +3216,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pretest;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -3317,13 +3321,13 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/Release/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/Release/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = mcberepair;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode;
+				SYMROOT = "${SRCROOT}/xcode/";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -3371,9 +3375,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
@@ -3388,7 +3392,7 @@
 				OTHER_LDFLAGS = (
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a",
+					"${SRCROOT}/xcode/leveldb-mcpe/MinSizeRel/libleveldb.a",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd,
 				);
 				OTHER_REZFLAGS = "";
@@ -3418,9 +3422,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe/include",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/.",
-					"/Volumes/Half/Users/ckh/dev/bedrockblocks2/leveldb-mcpe/include",
+					"${SRCROOT}/xcode/leveldb-mcpe/include",
+					"${SRCROOT}/leveldb-mcpe/.",
+					"${SRCROOT}/leveldb-mcpe/include",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -3437,7 +3441,7 @@
 				PRODUCT_NAME = leveldb;
 				SDKROOT = iphoneos;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Volumes/Half/Users/ckh/dev/bedrockblocks2/xcode/leveldb-mcpe";
+				SYMROOT = "${SRCROOT}/xcode/leveldb-mcpe";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
